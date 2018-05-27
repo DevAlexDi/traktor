@@ -305,6 +305,7 @@ body{
                     position: relative;
                     width: 100%;
                     overflow: hidden;
+                    margin-bottom: 7px;
                     &:before{
                         content: '';
                         display: block;
@@ -342,6 +343,31 @@ body{
                         padding: 7px 5px;
                     }
                 }
+                a{
+                    font-size: 19px;
+                    color: #000;
+                    font-family: RalewayBold;
+                    display: block;
+                    
+                }
+            }
+        }
+    }
+    .all-product-with-ad{
+        display: flex;
+        align-items: flex-start;
+        .ad-big{
+            flex-shrink: 0;
+            padding: 0 18.5px;
+            .ad-wrapp{
+                width: 309px;
+                border: 1px solid red;
+            }
+        }
+        .all-product{
+            width: 100%;
+            .one-product-wr{
+                width: 25%;
             }
         }
     }

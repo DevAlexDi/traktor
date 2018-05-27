@@ -1,3 +1,205 @@
+@media (max-width: 1800px) {
+  .tech-types .categories li a, .tech-types .categories li span {
+    font-size: 13px; } }
+@media (max-width: 1700px) {
+  .tech-types .categories li {
+    width: 12.5%; } }
+@media (max-width: 1600px) {
+  .products-wrapp .all-product .one-product-wr .one-product a {
+    font-size: 17px; }
 
+  .logo-wrapp .main-m-w .mid-side .categorys li a, .logo-wrapp .main-m-w .mid-side .categorys li span {
+    font-size: 20px; } }
+@media (max-width: 1500px) {
+  .tech-types {
+    margin-top: 30px; }
+
+  .products-wrapp .all-product-with-ad .all-product .one-product-wr {
+    width: 33.33%; }
+
+  .products-wrapp .all-product .one-product-wr .one-product a {
+    font-size: 16px; } }
+@media (max-width: 1400px) {
+  .tech-types .categories li {
+    width: 20%; }
+
+  .logo-wrapp .main-m-w .mid-side .categorys li a, .logo-wrapp .main-m-w .mid-side .categorys li span {
+    font-size: 18px; }
+
+  .logo-wrapp .main-m-w .mid-side .categorys li {
+    padding: 0 17.5px; }
+
+  .products-wrapp .all-product .one-product-wr {
+    width: 25%; } }
+@media (max-width: 1300px) {
+  .main-m-w {
+    padding: 0 35px; }
+
+  .main-m-w-2 {
+    padding: 0 18.5px; } }
+@media (max-width: 1199px) {
+  .logo-wrapp .main-m-w .right-side .adt {
+    padding: 7px 15px; }
+
+  .logo-wrapp .main-m-w .right-side .login {
+    padding: 7px 15px; }
+
+  .main-baner h1, .main-baner h2, .main-baner h3, .main-baner h4, .main-baner h5, .main-baner h6 {
+    font-size: 31px; }
+
+  .main-baner {
+    height: 385px; }
+
+  .products-wrapp .head-products {
+    flex-direction: column-reverse;
+    align-items: flex-start; }
+
+  .products-wrapp .head-products .right-side {
+    margin: 0 auto 20px auto; }
+
+  .logo-wrapp .main-m-w .mid-side .categorys li a, .logo-wrapp .main-m-w .mid-side .categorys li span {
+    font-size: 15px; } }
+@media (max-width: 1100px) {
+  .products-wrapp .all-product .one-product-wr {
+    width: 33.33%; } }
+@media (max-width: 991px) {
+  .products-wrapp .head-products .right-side {
+    display: none; }
+
+  .head-menu .right-pushed-menu .menu-list .first-itm {
+    padding: 0 15px; }
+
+  .logo-wrapp .main-m-w .mid-side .categorys li a, .logo-wrapp .main-m-w .mid-side .categorys li span {
+    font-size: 14px; }
+
+  .logo-wrapp .main-m-w .mid-side .categorys li {
+    padding: 0 8.5px; }
+
+  .logo-wrapp .main-m-w .left-side a {
+    display: block;
+    max-width: 120px; }
+
+  .logo-wrapp .main-m-w .right-side .adt {
+    margin-right: 10px;
+    font-size: 11px;
+    padding: 7px 8px; }
+
+  .logo-wrapp .main-m-w .right-side .login {
+    font-size: 11px;
+    padding: 7px 8px; }
+
+  .main-baner h1, .main-baner h2, .main-baner h3, .main-baner h4, .main-baner h5, .main-baner h6 {
+    font-size: 22px; }
+
+  .main-baner {
+    height: 315px; }
+
+  .tech-types .categories li {
+    width: 25%; }
+
+  .products-wrapp .all-product .one-product-wr .one-product a {
+    font-size: 15px; } }
+@media (max-width: 767px) {
+  .main-m-w {
+    padding: 0; }
+
+  .logo-wrapp .main-m-w {
+    flex-wrap: wrap; }
+
+  .head-menu .right-pushed-menu {
+    display: block; }
+
+  .logo-wrapp .main-m-w .mid-side {
+    order: 10;
+    width: 100%; }
+
+  .head-menu .right-pushed-menu {
+    min-height: 50px; }
+
+  .navbar-toggle {
+    right: auto;
+    left: 5px; }
+
+  .lang_block {
+    position: absolute;
+    right: 15px;
+    top: 12px; }
+
+  .head-menu .right-pushed-menu .menu-list {
+    display: block;
+    padding-top: 40px; }
+
+  .navbar-toggle {
+    margin-top: 0;
+    border: transparent;
+    top: 5px; }
+
+  .head-menu .right-pushed-menu .menu-list .first-itm {
+    padding: 0; }
+
+  .logo-wrapp .main-m-w .left-side {
+    width: auto;
+    margin-bottom: 10px; }
+
+  .logo-wrapp .main-m-w .right-side {
+    width: auto;
+    margin-bottom: 10px; }
+
+  .logo-wrapp .main-m-w .left-side a {
+    max-width: 105px; }
+
+  .head-menu {
+    margin-bottom: 10px; }
+
+  .logo-wrapp .main-m-w .mid-side .categorys {
+    justify-content: center; }
+
+  .logo-wrapp .main-m-w .mid-side .categorys li a, .logo-wrapp .main-m-w .mid-side .categorys li span {
+    padding: 10px 0; }
+
+  .logo-wrapp .main-m-w .right-side .adt {
+    margin-right: 5px; }
+
+  .main-baner {
+    height: 240px; }
+
+  .main-baner h1, .main-baner h2, .main-baner h3, .main-baner h4, .main-baner h5, .main-baner h6 {
+    text-align: center; }
+
+  .main-baner {
+    margin-bottom: 30px; }
+
+  .search-wrapper .main-m-w form input {
+    background-position: center left 10px;
+    padding: 7px 0 7px 30px; }
+
+  .search-wrapper .main-m-w form button {
+    width: 85px; }
+
+  .tech-types .categories li {
+    width: 50%; }
+
+  .tech-types .categories li a, .tech-types .categories li span {
+    font-size: 11px; }
+
+  .products-wrapp .head-products .left-side h1, .products-wrapp .head-products .left-side h2, .products-wrapp .head-products .left-side h3, .products-wrapp .head-products .left-side h4, .products-wrapp .head-products .left-side h5, .products-wrapp .head-products .left-side h6 {
+    font-size: 19px; }
+
+  .main-m-w-2 {
+    padding: 0 0; }
+
+  .products-wrapp .all-product .one-product-wr {
+    width: 50%;
+    padding: 0 5px; }
+
+  .products-wrapp .all-product .one-product-wr .one-product .img-before .top-text {
+    font-size: 13px;
+    width: 55px; }
+
+  .products-wrapp .all-product .one-product-wr .one-product a {
+    font-size: 13px; }
+
+  .products-wrapp .all-product .one-product-wr .one-product p {
+    font-size: 12px; } }
 
 /*# sourceMappingURL=media.css.map */
