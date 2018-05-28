@@ -6,8 +6,7 @@
     .index_text .index_text_wrap .google_banner {
       width: 300px;
       height: 600px;
-      flex-shrink: 0;
-      border: 1px solid red; }
+      flex-shrink: 0; }
     .index_text .index_text_wrap .text {
       width: 100%;
       padding-left: 50px;
@@ -31,7 +30,7 @@
     display: flex;
     width: 100%; }
     .green_cats_section .green_cats_wrap .green_cats .green_cat {
-      width: 33.3%;
+      width: 33.333%;
       height: 250px;
       flex-shrink: 0;
       background: url(../img/green_cat_bg.jpg) no-repeat center;
@@ -78,8 +77,7 @@
   .green_cats_section .green_cats_wrap .google_banner {
     width: 300px;
     height: 250px;
-    flex-shrink: 0;
-    border: 1px solid red; }
+    flex-shrink: 0; }
 
 footer {
   background: #f9f9f9;
@@ -96,11 +94,17 @@ footer {
       margin: 20px 0 0; }
       .footer_wrap .footer_left p a {
         color: #000;
-        font: 22px AvenirNextCyr; }
+        font: 22px AvenirNextCyr;
+        transition: 0.3s; }
+        .footer_wrap .footer_left p a:hover {
+          color: #179936; }
       .footer_wrap .footer_left p span {
         color: #979696;
         font: 12px AvenirNextCyr;
-        cursor: pointer; }
+        cursor: pointer;
+        transition: 0.3s; }
+        .footer_wrap .footer_left p span:hover {
+          color: #179936; }
   .footer_wrap .footer_menu {
     padding-right: 35px; }
     .footer_wrap .footer_menu .zag {
@@ -117,7 +121,10 @@ footer {
           color: #969696;
           font: 12px AvenirNextCyr;
           display: inline-block;
-          line-height: 1.2; }
+          line-height: 1.2;
+          transition: 0.3s; }
+          .footer_wrap .footer_menu ul li a:hover {
+            color: #179936; }
     .footer_wrap .footer_menu .payments {
       color: #969696;
       font: 14px AvenirNextCyr;

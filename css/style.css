@@ -40,8 +40,9 @@ body {
           cursor: pointer;
           font-size: 14px;
           color: #cfcfcf;
-          border-bottom: 2px solid transparent; }
-          .head-menu .right-pushed-menu .menu-list .first-itm .link-menu.active {
+          border-bottom: 2px solid transparent;
+          transition: 0.3s; }
+          .head-menu .right-pushed-menu .menu-list .first-itm .link-menu.active, .head-menu .right-pushed-menu .menu-list .first-itm .link-menu:hover {
             border-color: #ebebeb; }
 
 .lang_block {
@@ -60,11 +61,16 @@ body {
   position: absolute;
   right: 50%;
   transform: translateX(50%);
-  border: 1px solid #029892;
+  border: 1px solid #179936;
   background: white;
   z-index: 20;
   padding: 5px 7px;
   display: none; }
+  .lang_block .lang_select a {
+    color: #000;
+    transition: 0.3s; }
+    .lang_block .lang_select a:hover {
+      color: #179936; }
 
 .logo-wrapp .main-m-w {
   display: flex;
@@ -87,8 +93,9 @@ body {
         cursor: pointer;
         font-size: 24px;
         color: #000;
-        border-bottom: 2px solid transparent; }
-        .logo-wrapp .main-m-w .mid-side .categorys li a.active, .logo-wrapp .main-m-w .mid-side .categorys li span.active {
+        border-bottom: 2px solid transparent;
+        transition: 0.3s; }
+        .logo-wrapp .main-m-w .mid-side .categorys li a.active, .logo-wrapp .main-m-w .mid-side .categorys li a:hover, .logo-wrapp .main-m-w .mid-side .categorys li span.active, .logo-wrapp .main-m-w .mid-side .categorys li span:hover {
           border-color: #179936; }
   .logo-wrapp .main-m-w .right-side {
     max-width: 360px;
@@ -102,14 +109,20 @@ body {
       background: #179936;
       border-radius: 3px;
       margin-right: 26px;
-      padding: 7px 33px; }
+      padding: 7px 33px;
+      transition: 0.3s; }
+      .logo-wrapp .main-m-w .right-side .adt:hover {
+        background: rgba(23, 153, 54, 0.7); }
     .logo-wrapp .main-m-w .right-side .login {
       color: #ebebeb;
       font-size: 14px;
       display: block;
       background: #f5b818;
       border-radius: 3px;
-      padding: 7px 33px; }
+      padding: 7px 33px;
+      transition: 0.3s; }
+      .logo-wrapp .main-m-w .right-side .login:hover {
+        background: rgba(245, 184, 24, 0.7); }
 
 .main-baner {
   height: 450px;
@@ -188,7 +201,11 @@ body {
     position: relative;
     display: block;
     left: -2px;
-    font-family: RalewayBold; }
+    font-family: RalewayBold;
+    transition: 0.3s; }
+    .search-wrapper .main-m-w form button:hover {
+      background: #179936;
+      color: #fff; }
 
 .tech-types {
   margin-top: -15px;
@@ -210,7 +227,9 @@ body {
     .tech-types .categories li {
       width: 10%;
       padding: 0 10px;
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      transition: 0.3s;
+      cursor: pointer; }
       .tech-types .categories li img {
         margin: 0 auto 5px auto; }
       .tech-types .categories li a, .tech-types .categories li span {
@@ -218,6 +237,8 @@ body {
         font-size: 14px;
         text-align: center;
         color: #000; }
+      .tech-types .categories li:hover {
+        transform: scale(1.1); }
 
 .products-wrapp .head-products {
   display: flex;
@@ -234,8 +255,7 @@ body {
     color: #898888; }
   .products-wrapp .head-products .right-side .google-ad {
     width: 728px;
-    height: 90px;
-    border: 1px solid red; }
+    height: 90px; }
 .products-wrapp .all-product {
   display: flex;
   flex-wrap: wrap;
@@ -244,47 +264,52 @@ body {
     width: 20%;
     padding: 0 18.5px;
     margin-bottom: 35px; }
-    .products-wrapp .all-product .one-product-wr .one-product .img-before {
-      position: relative;
-      width: 100%;
-      overflow: hidden;
-      margin-bottom: 7px; }
-      .products-wrapp .all-product .one-product-wr .one-product .img-before:before {
-        content: '';
-        display: block;
-        padding-top: 68%;
-        position: relative; }
-      .products-wrapp .all-product .one-product-wr .one-product .img-before:after {
-        content: "";
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
+    .products-wrapp .all-product .one-product-wr .one-product {
+      transition: 0.3s;
+      cursor: pointer; }
+      .products-wrapp .all-product .one-product-wr .one-product:hover {
+        transform: scale(1.1); }
+      .products-wrapp .all-product .one-product-wr .one-product .img-before {
+        position: relative;
         width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.4); }
-      .products-wrapp .all-product .one-product-wr .one-product .img-before .img-product {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: center no-repeat;
-        background-size: cover; }
-      .products-wrapp .all-product .one-product-wr .one-product .img-before .top-text {
-        position: absolute;
-        text-align: center;
-        top: 0;
-        right: 0;
-        z-index: 5;
-        background: #fff;
-        width: 77px;
-        padding: 7px 5px; }
-    .products-wrapp .all-product .one-product-wr .one-product a {
-      font-size: 19px;
-      color: #000;
-      font-family: RalewayBold;
-      display: block; }
+        overflow: hidden;
+        margin-bottom: 7px; }
+        .products-wrapp .all-product .one-product-wr .one-product .img-before:before {
+          content: '';
+          display: block;
+          padding-top: 68%;
+          position: relative; }
+        .products-wrapp .all-product .one-product-wr .one-product .img-before:after {
+          content: "";
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.4); }
+        .products-wrapp .all-product .one-product-wr .one-product .img-before .img-product {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: center no-repeat;
+          background-size: cover; }
+        .products-wrapp .all-product .one-product-wr .one-product .img-before .top-text {
+          position: absolute;
+          text-align: center;
+          top: 0;
+          right: 0;
+          z-index: 5;
+          background: #fff;
+          width: 77px;
+          padding: 7px 5px; }
+      .products-wrapp .all-product .one-product-wr .one-product a {
+        font-size: 19px;
+        color: #000;
+        font-family: RalewayBold;
+        display: block; }
 .products-wrapp .all-product-with-ad {
   display: flex;
   align-items: flex-start; }

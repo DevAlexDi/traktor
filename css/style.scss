@@ -48,7 +48,8 @@ body{
                     font-size: 14px;
                     color: #cfcfcf;
                     border-bottom: 2px solid transparent;
-                    &.active{
+                    transition: 0.3s;
+                    &.active, &:hover {
                         border-color: #ebebeb;
                     }
                 }
@@ -74,11 +75,20 @@ body{
     position: absolute;
     right: 50%;
     transform: translateX(50%);
-    border: 1px solid #029892;
+    border: 1px solid #179936;
     background: white;
     z-index: 20;
     padding: 5px 7px;
     display: none;
+
+    a {
+        color: #000;
+        transition: 0.3s;
+
+        &:hover {
+            color: #179936;
+        }
+    }
 }
 .logo-wrapp{
     .main-m-w{
@@ -105,7 +115,8 @@ body{
                         font-size: 24px;
                         color: #000;
                         border-bottom: 2px solid transparent;
-                        &.active{
+                        transition: 0.3s;
+                        &.active, &:hover{
                             border-color: #179936;
                         }
                     }
@@ -125,6 +136,11 @@ body{
                 border-radius: 3px;
                 margin-right: 26px;
                 padding: 7px 33px;
+                transition: 0.3s;
+
+                &:hover {
+                    background: rgba(23, 153, 54, 0.7);
+                }
             }
             .login{
                 color: #ebebeb;
@@ -133,6 +149,11 @@ body{
                 background: #f5b818;
                 border-radius: 3px;
                 padding: 7px 33px;
+                transition: 0.3s;
+
+                &:hover {
+                    background: rgba(245, 184, 24, 0.7);
+                }
             }
         }
         
@@ -226,6 +247,12 @@ body{
                 display: block;
                 left: -2px;
                font-family: RalewayBold;
+                transition: 0.3s;
+
+                &:hover {
+                    background: #179936;
+                    color: #fff;
+                }
             }
         }
     }
@@ -252,6 +279,9 @@ body{
             width: 10%;
             padding: 0 10px;
             margin-bottom: 20px;
+            transition: 0.3s;
+            cursor: pointer;
+
             img{
                 margin: 0 auto 5px auto;
                 
@@ -261,6 +291,10 @@ body{
                 font-size: 14px;
                 text-align: center;
                 color: #000;
+            }
+
+            &:hover {
+                transform: scale(1.1);
             }
         }
     }
@@ -287,7 +321,6 @@ body{
             .google-ad{
                 width: 728px;
                 height: 90px;
-                border: 1px solid red;
             }
         }
   
@@ -301,6 +334,13 @@ body{
             padding: 0 18.5px;
             margin-bottom: 35px;
             .one-product{
+                transition: 0.3s;
+                cursor: pointer;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+
                 .img-before{
                     position: relative;
                     width: 100%;

@@ -13,4 +13,12 @@ $(document).ready(function () {
         }
     });
 
+    $('.lang_block').click(function(e) {
+        e.stopPropagation();
+        $(this).find('.lang_select').slideToggle();
+    });
+    $('body').click(function() {
+        $('.lang_block .lang_select').slideUp();
+    });
+
 });
