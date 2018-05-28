@@ -1,3 +1,12 @@
+@media (max-width: 991px) {
+  .index_text {
+    margin-top: 0;
+    margin-bottom: 30px; }
 
+  .index_text .index_text_wrap .google_banner {
+    display: none; }
+
+  .index_text .index_text_wrap .text {
+    padding-left: 0; } }
 
 /*# sourceMappingURL=media-t.css.map */

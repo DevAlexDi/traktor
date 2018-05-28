@@ -1,3 +1,28 @@
-
+.index_text {
+  margin-top: 40px;
+  margin-bottom: 70px; }
+  .index_text .index_text_wrap {
+    display: flex; }
+    .index_text .index_text_wrap .google_banner {
+      width: 300px;
+      height: 600px;
+      flex-shrink: 0;
+      border: 1px solid red; }
+    .index_text .index_text_wrap .text {
+      width: 100%;
+      padding-left: 50px;
+      color: #000;
+      font: 16px AvenirNextCyr; }
+      .index_text .index_text_wrap .text h1, .index_text .index_text_wrap .text h2, .index_text .index_text_wrap .text h3, .index_text .index_text_wrap .text h4, .index_text .index_text_wrap .text h5, .index_text .index_text_wrap .text h6 {
+        font-family: RalewayBold;
+        margin-bottom: 25px; }
+      .index_text .index_text_wrap .text h1 {
+        font-size: 24px; }
+      .index_text .index_text_wrap .text h2 {
+        font-size: 22px; }
+      .index_text .index_text_wrap .text h3 {
+        font-size: 20px; }
+      .index_text .index_text_wrap .text h4, .index_text .index_text_wrap .text h5, .index_text .index_text_wrap .text h6 {
+        font-size: 18px; }
 
 /*# sourceMappingURL=style-t.css.map */

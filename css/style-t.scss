@@ -1,0 +1,39 @@
+.index_text {
+  margin-top: 40px;
+  margin-bottom: 70px;
+
+  .index_text_wrap {
+    display: flex;
+
+    .google_banner {
+      width: 300px;
+      height: 600px;
+      flex-shrink: 0;
+      border: 1px solid red;
+    }
+
+    .text {
+      width: 100%;
+      padding-left: 50px;
+      color: #000;
+      font: 16px AvenirNextCyr;
+
+      h1, h2, h3, h4, h5, h6 {
+        font-family: RalewayBold;
+        margin-bottom: 25px;
+      }
+      h1 {
+        font-size: 24px;
+      }
+      h2 {
+        font-size: 22px;
+      }
+      h3 {
+        font-size: 20px;
+      }
+      h4, h5, h6 {
+        font-size: 18px;
+      }
+    }
+  }
+}
