@@ -414,8 +414,198 @@ body{
 }
 
 .breads{
-    
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    list-style: none;
+    padding: 18px 0;
+    li{
+        a,span{
+            display: block;
+            margin-right: 23px;
+            font-size: 12px;
+            color: #999999;
+            position: relative;
+        }
+        a{
+            &:after{
+                content: '/';
+                display: block;
+                position: absolute;
+                right: -13px;
+                font-size: 12px;
+            color: #999999;
+                top: 0;
+            }
+        }
+        
+    }
+}
+.slick-vertical .slick-slide{
+    border: none;
 }
 .product-wr{
+    .search-wrapper{
+        padding: 30px 0;
+        background: #f9f9f9;
+    }
+    .name-product{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        .left-side{
+           
+            .name{
+                position: relative;
+                display: flex;
+                align-items: flex-start;
+                padding-right: 100px;
+                margin-bottom: 5px;
+            }
+            .moment{
+                font-size: 14px;
+                color: #fff;
+                margin: 0;
+                background: #ff0000;
+                border-radius: 4px;
+                padding: 3px 30px;
+                margin-top: 5px;
+            }
+            h1{
+                font-family: RalewayBold;
+                font-weight: normal;
+                margin: 0;
+                font-size: 30px;
+                padding-right: 13px;
+            }
+            .views{
+                position: absolute;
+                top: 8px;
+                right: 0;
+                display: block;
+                color: #696969;
+                font-size: 14px;
+                padding-left: 20px;
+                background-image: url(../img/eye.png);
+                background-repeat: no-repeat;
+                background-position: center left;
+                
+            }
+            .where{
+                font-size: 14px;
+                font-family: RalewayBold;
+                padding-left: 22px;
+                background-image: url(../img/small-mark.png);
+                background-repeat: no-repeat;
+                background-position: center left;
+            }
+        }
+        .right-side{
+            width: 730px;
+            height: 90px;
+            border: 1px solid red;
+            flex-shrink: 0;
+        }
+    }
+    .product-description-wrapp{
+        display: flex;
+        align-items: flex-start;
+        .left-side{
+            width: 100%;
+            max-width: 580px;
+            .sliders-images-wrapp{
+                display: flex;
+                align-items: flex-start;
+                .nav-slider-wrapp{
+                    width: 20%;
+                    .one-slide{
+                        padding: 2.5px;
+                        outline: none;
+                        &.slick-current{
+                            .img-before{
+                                .img{
+                                    border: 1px solid #52ac62;
+                                }
+                            }
+                        }
+                    }
+                    .img-before{
+                        position: relative;
+                        width: 100%;
+                        overflow: hidden;
+                        outline: none;
+                        
+                        &:before{
+                            content: '';
+                            display: block;
+                            padding-top: 90%;
+                            position: relative;
+                        }
+                        .img{
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            right: 0;
+                            bottom: 0;
+                            background: center no-repeat;
+                            background-size: cover;
+                         
+                        }
+                    }
+                }
+                .for-slider-wrapp{
+                    width: 80%;
+                    position: relative;
+                    .add-to-favorite{
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                    }
+                    .one-slide{
+                        padding: 2.5px;
+                        outline: none;
+                        
+                    }
+                    .img-before{
+                        position: relative;
+                        width: 100%;
+                        overflow: hidden;
+                        &:before{
+                            content: '';
+                            display: block;
+                            padding-top: 90%;
+                            position: relative;
+                        }
+                        &:after{
+                            content: '';
+                            display: block;
+                            top: 0;
+                            left: 0;
+                            right: 0;
+                            bottom: 0;
+                            background: #000;
+                            opacity: .3;
+                            position: absolute;
+                            transition: .8s;
+                        }
+                        .img{
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            right: 0;
+                            bottom: 0;
+                            background: center no-repeat;
+                            background-size: cover;
+                         
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+    
+    
     
 }

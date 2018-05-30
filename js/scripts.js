@@ -21,4 +21,26 @@ $(document).ready(function () {
         $('.lang_block .lang_select').slideUp();
     });
 
+    
+    
+     $('.for-slider').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      fade: true,
+      asNavFor: '.nav-slider'
+    });
+    $('.nav-slider').slick({
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      asNavFor: '.for-slider',
+      focusOnSelect: true,
+        vertical:true
+    });
+    
+    
+    
+    
+    
+    
 });
