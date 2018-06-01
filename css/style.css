@@ -401,7 +401,8 @@ body {
     flex-shrink: 0; }
 .product-wr .product-description-wrapp {
   display: flex;
-  align-items: flex-start; }
+  align-items: flex-start;
+  margin-bottom: 45px; }
   .product-wr .product-description-wrapp .left-side {
     width: 100%;
     max-width: 580px; }
@@ -438,8 +439,29 @@ body {
         position: relative; }
         .product-wr .product-description-wrapp .left-side .sliders-images-wrapp .for-slider-wrapp .add-to-favorite {
           position: absolute;
-          top: 0;
-          right: 0; }
+          top: 15px;
+          right: 15px;
+          z-index: 100;
+          width: 101px;
+          height: 81px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          background: rgba(0, 0, 0, 0.1);
+          border-radius: 8px;
+          cursor: pointer; }
+          .product-wr .product-description-wrapp .left-side .sliders-images-wrapp .for-slider-wrapp .add-to-favorite .star-image {
+            width: 26px;
+            height: 26px;
+            background-image: url(../img/star.png);
+            margin-bottom: 10px; }
+          .product-wr .product-description-wrapp .left-side .sliders-images-wrapp .for-slider-wrapp .add-to-favorite p {
+            margin: 0;
+            color: #fff;
+            font-size: 14px; }
+          .product-wr .product-description-wrapp .left-side .sliders-images-wrapp .for-slider-wrapp .add-to-favorite.added .star-image {
+            background-image: url(../img/addet-to-favorite.png); }
         .product-wr .product-description-wrapp .left-side .sliders-images-wrapp .for-slider-wrapp .one-slide {
           padding: 2.5px;
           outline: none; }
@@ -471,5 +493,161 @@ body {
             bottom: 0;
             background: center no-repeat;
             background-size: cover; }
+    .product-wr .product-description-wrapp .left-side .share-wrapper {
+      display: flex;
+      justify-content: space-between;
+      padding: 25px 0;
+      align-items: center; }
+      .product-wr .product-description-wrapp .left-side .share-wrapper .share-text {
+        font-size: 16px;
+        margin-bottom: 0; }
+  .product-wr .product-description-wrapp .right-side {
+    padding-left: 45px;
+    width: 100%;
+    max-width: 850px; }
+    .product-wr .product-description-wrapp .right-side .m-w-2 {
+      max-width: 575px; }
+    .product-wr .product-description-wrapp .right-side .price {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .product-wr .product-description-wrapp .right-side .price .sides-s:first-child {
+        display: flex;
+        align-items: center; }
+      .product-wr .product-description-wrapp .right-side .price .sides-s .price-t {
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 0;
+        margin-right: 22px; }
+      .product-wr .product-description-wrapp .right-side .price .sides-s select {
+        display: block;
+        width: 76px;
+        border-radius: 3px;
+        color: #fff;
+        font-family: RalewayBold;
+        text-transform: uppercase;
+        height: 35px;
+        /*for WebKit*/
+        -webkit-appearance: none;
+        /* for FF */
+        -moz-appearance: none;
+        text-indent: 0.01px;
+        text-overflow: '';
+        /* for IE */
+        -ms-appearance: none;
+        appearance: none !important;
+        background-image: url(../img/select-arr.png);
+        background-position: right 10px center;
+        background-repeat: no-repeat;
+        background-color: #179936;
+        padding-left: 10px;
+        outline: none; }
+      .product-wr .product-description-wrapp .right-side .price .sides-s select::-ms-expand {
+        display: none; }
+      .product-wr .product-description-wrapp .right-side .price .sides-s .num-ad {
+        color: #696969;
+        font-size: 14px; }
+    .product-wr .product-description-wrapp .right-side .options-ad {
+      display: flex;
+      justify-content: space-between;
+      padding: 17px 0; }
+      .product-wr .product-description-wrapp .right-side .options-ad .option-ad {
+        color: #696969;
+        margin-bottom: 0;
+        padding-left: 24px;
+        padding-right: 10px;
+        background-repeat: no-repeat;
+        background-position: center left;
+        cursor: pointer; }
+        .product-wr .product-description-wrapp .right-side .options-ad .option-ad:last-child {
+          padding-right: 0; }
+        .product-wr .product-description-wrapp .right-side .options-ad .option-ad.option-1 {
+          background-image: url(../img/option-1.png); }
+        .product-wr .product-description-wrapp .right-side .options-ad .option-ad.option-2 {
+          background-image: url(../img/option-2.png); }
+        .product-wr .product-description-wrapp .right-side .options-ad .option-ad.option-3 {
+          background-image: url(../img/option-3.png); }
+        .product-wr .product-description-wrapp .right-side .options-ad .option-ad.option-4 {
+          background-image: url(../img/option-4.png);
+          background-position: center left 2px; }
+    .product-wr .product-description-wrapp .right-side .butt-product-wr {
+      display: flex; }
+      .product-wr .product-description-wrapp .right-side .butt-product-wr .one-b-wrapp {
+        width: 50%; }
+        .product-wr .product-description-wrapp .right-side .butt-product-wr .one-b-wrapp .butt {
+          background: #179936;
+          position: relative;
+          border-radius: 3px;
+          padding: 11px 17px; }
+          .product-wr .product-description-wrapp .right-side .butt-product-wr .one-b-wrapp .butt.butt-tel p {
+            font-size: 20px;
+            color: #fff;
+            font-family: RalewayBold;
+            padding-left: 26px;
+            background-repeat: no-repeat;
+            background-image: url(../img/tel-icon.png);
+            background-position: center left;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            margin-bottom: 0; }
+            .product-wr .product-description-wrapp .right-side .butt-product-wr .one-b-wrapp .butt.butt-tel p span {
+              font-size: 14px; }
+          .product-wr .product-description-wrapp .right-side .butt-product-wr .one-b-wrapp .butt.butt-tel .look {
+            position: absolute;
+            top: 50%;
+            right: 13px;
+            transform: translateY(-50%);
+            color: #fff;
+            text-decoration: underline;
+            cursor: pointer;
+            font-size: 12px; }
+          .product-wr .product-description-wrapp .right-side .butt-product-wr .one-b-wrapp .butt.butt-send {
+            cursor: pointer; }
+            .product-wr .product-description-wrapp .right-side .butt-product-wr .one-b-wrapp .butt.butt-send p {
+              font-size: 20px;
+              text-align: center;
+              color: #fff; }
+        .product-wr .product-description-wrapp .right-side .butt-product-wr .one-b-wrapp:first-child {
+          padding-right: 8px; }
+        .product-wr .product-description-wrapp .right-side .butt-product-wr .one-b-wrapp:last-child {
+          padding-left: 8px; }
+    .product-wr .product-description-wrapp .right-side .tech-text-head {
+      font-size: 24px;
+      font-weight: normal;
+      margin-bottom: 14px;
+      font-family: RalewayBold;
+      padding-top: 8px; }
+    .product-wr .product-description-wrapp .right-side .characters .character {
+      display: flex;
+      margin-bottom: 14px;
+      align-items: center; }
+      .product-wr .product-description-wrapp .right-side .characters .character .property {
+        font-family: 'Raleway', sans-serif;
+        margin-bottom: 0;
+        width: 100%;
+        max-width: 350px;
+        display: flex;
+        background-image: url(../img/patern-list.jpg);
+        background-repeat: repeat-x;
+        background-position: bottom left;
+        line-height: 14px; }
+        .product-wr .product-description-wrapp .right-side .characters .character .property span {
+          display: block;
+          background: #fff;
+          padding-right: 10px; }
+      .product-wr .product-description-wrapp .right-side .characters .character .velue {
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 14px;
+        padding-left: 5px; }
+    .product-wr .product-description-wrapp .right-side .description-product h6 {
+      font-size: 24px;
+      font-weight: normal;
+      margin-bottom: 8px;
+      font-family: RalewayBold; }
+    .product-wr .product-description-wrapp .right-side .description-product p {
+      color: #696969;
+      font-size: 14px;
+      font-family: 'Raleway', sans-serif; }
 
 /*# sourceMappingURL=style.css.map */
