@@ -1090,3 +1090,216 @@ body{
 .products-wrapp .head-products .left-side.more-padding{
     padding-left: 346px;
 }
+.contacts-page-text{
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 25px;
+}
+.contacts-map{
+    position: relative;
+    
+    #map{
+        height: 550px;
+        opacity: 0.6;
+        transition: 0.3s;
+        &:hover{
+            opacity: 1;
+        }
+    }
+    .form-wrapp{
+        position: absolute;
+        right: 190px;
+        top: 55px;
+        width: 465px;
+        background: #fff;
+        z-index: 800;
+        -webkit-box-shadow: 3px 3px 90px 0px rgba(0,0,0,0.1);
+        -moz-box-shadow: 3px 3px 90px 0px rgba(0,0,0,0.1);
+        box-shadow: 3px 3px 90px 0px rgba(0,0,0,0.1);
+        padding: 40px 45px;
+        .head-form{
+            font-size: 24px;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 700;
+            margin-bottom: 50px;
+            line-height: 26px;
+        }
+        form{
+            input{
+                display: block;
+                width: 100%;
+                outline: none;
+                border: none;
+                border-bottom: 1px solid #cfd7da;
+                font-size: 14px;
+                margin-bottom: 40px;
+                padding: 17px 5px 17px 40px;
+                background-repeat: no-repeat;
+                background-position: center left 10px;
+                font-family: 'Raleway', sans-serif;
+                border-radius: 0;
+                &::-webkit-input-placeholder {
+                    color: #a3a4a6;
+                }
+                &::-moz-placeholder {
+                    color: #a3a4a6;
+                }
+                &:-moz-placeholder {
+                    color: #a3a4a6;
+                }
+                &:-ms-input-placeholder {
+                    color: #a3a4a6;
+                }
+                &.tel-num{
+                    background-image: url(../img/contact-tel.png);
+                }
+                &.name-user{
+                    background-image: url(../img/contact-name.png);
+                    margin-bottom: 27px;
+                }
+            }
+            textarea{
+                display: block;
+                width: 100%;
+                outline: none;
+                border: 1px solid #cfd7da;
+                padding: 17px;
+                font-size: 14px;
+                 font-family: 'Raleway', sans-serif;
+                border-radius: 0;
+                resize: none;
+                height: 115px;
+                margin-bottom: 40px;
+                &::-webkit-input-placeholder {
+                    color: #a3a4a6;
+                }
+                &::-moz-placeholder {
+                    color: #a3a4a6;
+                }
+                &:-moz-placeholder {
+                    color: #a3a4a6;
+                }
+                &:-ms-input-placeholder {
+                    color: #a3a4a6;
+                }
+            }
+            .captcha-wr{
+                margin-bottom: 40px;
+            }
+            .one-checkbox {
+                margin-bottom: 40px;
+            }
+            button{
+                display: block;
+                margin: 0 auto;
+                width: 100%;
+                max-width: 195px;
+                background: #179936;
+                color: #fff;
+                outline: none;
+                border: none;
+                border-radius: 3px;
+                font-size: 14px;
+                 font-family: 'Raleway', sans-serif;
+                padding: 7px 0;
+            }
+        }
+    }
+    .some-contact-info{
+        padding: 80px 0 110px 0;
+        .some-contact-info-header{
+            font-size: 24px;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 700;
+            margin: 0;
+            margin-bottom: 16px;
+            
+        }
+        .flex-info-contact{
+            display: flex;
+            max-width: 980px;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            .contact-info{
+                width: 50%;
+                margin-bottom: 20px;
+                p,a{
+                    display: block;
+                    font-size: 18px;
+                    color: #a3a4a6;
+                    font-family: 'Raleway', sans-serif;
+                    background-repeat: no-repeat;
+                    background-position: top 5px left;
+                    padding-left: 35px;
+                    padding-right: 20px;
+                }
+                .adr-1{
+                    background-image: url(../img/adr-1.png);
+                }
+                .adr-2{
+                    background-image: url(../img/adr-2.png);
+                }
+                .adr-3{
+                    background-image: url(../img/adr-3.png);
+                }
+                .adr-4{
+                    background-image: url(../img/adr-4.png);
+                }
+            }
+            
+        }
+    }
+}
+.one-checkbox {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    overflow: hidden;
+    padding-top: 2px;
+    
+    .check-style {
+        .checkbox {
+            width: 0;
+            height: 0;
+            display: block;
+            position: absolute;
+            left: -5000px;
+            top: 0;
+        }
+        label {
+            display: flex;
+            width: 18px;
+            height: 18px;
+            background: transparent;
+            border: 3px solid #d6d6d6;
+            position: relative;
+            cursor: pointer;
+            padding: 3px;
+            &:before {
+                content: "";
+                display: block;
+                position: relative;
+                width: 100%;
+                height: 100%;
+                background: #179936;
+                opacity: 0;
+            }
+        }
+        .checkbox:checked + label {
+            border-color: #179936;
+            &:before {
+                opacity: 1;
+            }
+        }
+    }
+    p {
+        padding-left: 15px;
+        color: #a3a4a6;
+        font-size: 12px;
+        color: #afafaf;
+        font-family: 'Raleway', sans-serif;
+    }
+}
