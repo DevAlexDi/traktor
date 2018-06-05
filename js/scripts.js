@@ -13,6 +13,9 @@ $(document).ready(function () {
         }
     });
 
+    
+    //языки
+    
     $('.lang_block').click(function(e) {
         e.stopPropagation();
         $(this).find('.lang_select').slideToggle();
@@ -21,4 +24,54 @@ $(document).ready(function () {
         $('.lang_block .lang_select').slideUp();
     });
 
+    //slider
+    
+     $('.for-slider').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      fade: true,
+      asNavFor: '.nav-slider'
+    });
+    $('.nav-slider').slick({
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      asNavFor: '.for-slider',
+      focusOnSelect: true,
+        vertical:true
+    });
+    
+    
+    //инпут файл
+    
+    var inputs = document.querySelectorAll('.inputfile');
+    Array.prototype.forEach.call(inputs, function (input) {
+        var label = input.nextElementSibling
+            , labelVal = label.innerHTML;
+        input.addEventListener('change', function (e) {
+            var fileName = '';
+            if (this.files && this.files.length > 1) fileName = (this.getAttribute('data-multiple-caption') || '').replace('{count}', this.files.length);
+            else fileName = e.target.value.split('\\').pop();
+            if (fileName) {
+                label.querySelector('span').innerHTML = fileName;
+                $(".buttons-wrap-chat label").addClass("was-add");
+            }
+            else {
+                label.innerHTML = labelVal;
+                $(".buttons-wrap-chat label").removeClass("was-add");
+            }
+        });
+    });
+    
+    
+    //тел маска
+    $('.tel-init').inputmask({
+        "mask": "+7 (999) 999-99-99"
+            , "placeholder": "_"
+            , showMaskOnHover: false
+            , showMaskOnFocus: true
+        });
+    
+    
+    
 });

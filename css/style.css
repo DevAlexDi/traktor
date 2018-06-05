@@ -322,7 +322,8 @@ body {
         display: block; }
 .products-wrapp .all-product-with-ad {
   display: flex;
-  align-items: flex-start; }
+  align-items: flex-start;
+  margin-bottom: 30px; }
   .products-wrapp .all-product-with-ad .ad-big {
     flex-shrink: 0;
     padding: 0 18.5px; }
@@ -333,5 +334,907 @@ body {
     width: 100%; }
     .products-wrapp .all-product-with-ad .all-product .one-product-wr {
       width: 25%; }
+
+.breads {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  list-style: none;
+  padding: 18px 0; }
+  .breads li a, .breads li span {
+    display: block;
+    margin-right: 23px;
+    font-size: 12px;
+    color: #999999;
+    position: relative; }
+  .breads li a:after {
+    content: '/';
+    display: block;
+    position: absolute;
+    right: -13px;
+    font-size: 12px;
+    color: #999999;
+    top: 0; }
+
+.slick-vertical .slick-slide {
+  border: none; }
+
+.product-wr .search-wrapper {
+  padding: 30px 0;
+  background: #f9f9f9; }
+.product-wr .name-product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px; }
+  .product-wr .name-product .left-side .name {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    padding-right: 100px;
+    margin-bottom: 5px; }
+  .product-wr .name-product .left-side .moment {
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+    background: #ff0000;
+    border-radius: 4px;
+    padding: 3px 30px;
+    margin-top: 5px; }
+  .product-wr .name-product .left-side h1 {
+    font-family: RalewayBold;
+    font-weight: normal;
+    margin: 0;
+    font-size: 30px;
+    padding-right: 13px; }
+  .product-wr .name-product .left-side .views {
+    position: absolute;
+    top: 8px;
+    right: 0;
+    display: block;
+    color: #696969;
+    font-size: 14px;
+    padding-left: 20px;
+    background-image: url(../img/eye.png);
+    background-repeat: no-repeat;
+    background-position: center left; }
+  .product-wr .name-product .left-side .where {
+    font-size: 14px;
+    font-family: RalewayBold;
+    padding-left: 22px;
+    background-image: url(../img/small-mark.png);
+    background-repeat: no-repeat;
+    background-position: center left; }
+  .product-wr .name-product .right-side {
+    width: 730px;
+    height: 90px;
+    border: 1px solid red;
+    flex-shrink: 0; }
+.product-wr .product-description-wrapp {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 45px; }
+  .product-wr .product-description-wrapp .left-side {
+    width: 100%;
+    max-width: 580px; }
+    .product-wr .product-description-wrapp .left-side .sliders-images-wrapp {
+      display: flex;
+      align-items: flex-start; }
+      .product-wr .product-description-wrapp .left-side .sliders-images-wrapp .nav-slider-wrapp {
+        width: 20%; }
+        .product-wr .product-description-wrapp .left-side .sliders-images-wrapp .nav-slider-wrapp .one-slide {
+          padding: 2.5px;
+          outline: none; }
+          .product-wr .product-description-wrapp .left-side .sliders-images-wrapp .nav-slider-wrapp .one-slide.slick-current .img-before .img {
+            border: 1px solid #52ac62; }
+        .product-wr .product-description-wrapp .left-side .sliders-images-wrapp .nav-slider-wrapp .img-before {
+          position: relative;
+          width: 100%;
+          overflow: hidden;
+          outline: none; }
+          .product-wr .product-description-wrapp .left-side .sliders-images-wrapp .nav-slider-wrapp .img-before:before {
+            content: '';
+            display: block;
+            padding-top: 90%;
+            position: relative; }
+          .product-wr .product-description-wrapp .left-side .sliders-images-wrapp .nav-slider-wrapp .img-before .img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: center no-repeat;
+            background-size: cover; }
+      .product-wr .product-description-wrapp .left-side .sliders-images-wrapp .for-slider-wrapp {
+        width: 80%;
+        position: relative; }
+        .product-wr .product-description-wrapp .left-side .sliders-images-wrapp .for-slider-wrapp .add-to-favorite {
+          position: absolute;
+          top: 15px;
+          right: 15px;
+          z-index: 100;
+          width: 101px;
+          height: 81px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          background: rgba(0, 0, 0, 0.1);
+          border-radius: 8px;
+          cursor: pointer; }
+          .product-wr .product-description-wrapp .left-side .sliders-images-wrapp .for-slider-wrapp .add-to-favorite .star-image {
+            width: 26px;
+            height: 26px;
+            background-image: url(../img/star.png);
+            margin-bottom: 10px; }
+          .product-wr .product-description-wrapp .left-side .sliders-images-wrapp .for-slider-wrapp .add-to-favorite p {
+            margin: 0;
+            color: #fff;
+            font-size: 14px; }
+          .product-wr .product-description-wrapp .left-side .sliders-images-wrapp .for-slider-wrapp .add-to-favorite.added .star-image {
+            background-image: url(../img/addet-to-favorite.png); }
+        .product-wr .product-description-wrapp .left-side .sliders-images-wrapp .for-slider-wrapp .one-slide {
+          padding: 2.5px;
+          outline: none; }
+        .product-wr .product-description-wrapp .left-side .sliders-images-wrapp .for-slider-wrapp .img-before {
+          position: relative;
+          width: 100%;
+          overflow: hidden; }
+          .product-wr .product-description-wrapp .left-side .sliders-images-wrapp .for-slider-wrapp .img-before:before {
+            content: '';
+            display: block;
+            padding-top: 90%;
+            position: relative; }
+          .product-wr .product-description-wrapp .left-side .sliders-images-wrapp .for-slider-wrapp .img-before:after {
+            content: '';
+            display: block;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: #000;
+            opacity: .3;
+            position: absolute;
+            transition: .8s; }
+          .product-wr .product-description-wrapp .left-side .sliders-images-wrapp .for-slider-wrapp .img-before .img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: center no-repeat;
+            background-size: cover; }
+    .product-wr .product-description-wrapp .left-side .share-wrapper {
+      display: flex;
+      justify-content: space-between;
+      padding: 25px 0;
+      align-items: center; }
+      .product-wr .product-description-wrapp .left-side .share-wrapper .share-text {
+        font-size: 16px;
+        margin-bottom: 0; }
+  .product-wr .product-description-wrapp .right-side {
+    padding-left: 45px;
+    width: 100%;
+    max-width: 850px; }
+    .product-wr .product-description-wrapp .right-side .m-w-2 {
+      max-width: 575px; }
+    .product-wr .product-description-wrapp .right-side .price {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .product-wr .product-description-wrapp .right-side .price .sides-s:first-child {
+        display: flex;
+        align-items: center; }
+      .product-wr .product-description-wrapp .right-side .price .sides-s .price-t {
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 0;
+        margin-right: 22px; }
+      .product-wr .product-description-wrapp .right-side .price .sides-s select {
+        display: block;
+        width: 76px;
+        border-radius: 3px;
+        color: #fff;
+        font-family: RalewayBold;
+        text-transform: uppercase;
+        height: 35px;
+        /*for WebKit*/
+        -webkit-appearance: none;
+        /* for FF */
+        -moz-appearance: none;
+        text-indent: 0.01px;
+        text-overflow: '';
+        /* for IE */
+        -ms-appearance: none;
+        appearance: none !important;
+        background-image: url(../img/select-arr.png);
+        background-position: right 10px center;
+        background-repeat: no-repeat;
+        background-color: #179936;
+        padding-left: 10px;
+        outline: none; }
+      .product-wr .product-description-wrapp .right-side .price .sides-s select::-ms-expand {
+        display: none; }
+      .product-wr .product-description-wrapp .right-side .price .sides-s .num-ad {
+        color: #696969;
+        font-size: 14px; }
+    .product-wr .product-description-wrapp .right-side .options-ad {
+      display: flex;
+      justify-content: space-between;
+      padding: 17px 0; }
+      .product-wr .product-description-wrapp .right-side .options-ad .option-ad {
+        color: #696969;
+        margin-bottom: 0;
+        padding-left: 24px;
+        padding-right: 10px;
+        background-repeat: no-repeat;
+        background-position: center left;
+        cursor: pointer; }
+        .product-wr .product-description-wrapp .right-side .options-ad .option-ad:last-child {
+          padding-right: 0; }
+        .product-wr .product-description-wrapp .right-side .options-ad .option-ad.option-1 {
+          background-image: url(../img/option-1.png); }
+        .product-wr .product-description-wrapp .right-side .options-ad .option-ad.option-2 {
+          background-image: url(../img/option-2.png); }
+        .product-wr .product-description-wrapp .right-side .options-ad .option-ad.option-3 {
+          background-image: url(../img/option-3.png); }
+        .product-wr .product-description-wrapp .right-side .options-ad .option-ad.option-4 {
+          background-image: url(../img/option-4.png);
+          background-position: center left 2px; }
+    .product-wr .product-description-wrapp .right-side .butt-product-wr {
+      display: flex; }
+      .product-wr .product-description-wrapp .right-side .butt-product-wr .one-b-wrapp {
+        width: 50%; }
+        .product-wr .product-description-wrapp .right-side .butt-product-wr .one-b-wrapp .butt {
+          background: #179936;
+          position: relative;
+          border-radius: 3px;
+          padding: 11px 17px; }
+          .product-wr .product-description-wrapp .right-side .butt-product-wr .one-b-wrapp .butt.butt-tel p {
+            font-size: 20px;
+            color: #fff;
+            font-family: RalewayBold;
+            padding-left: 26px;
+            background-repeat: no-repeat;
+            background-image: url(../img/tel-icon.png);
+            background-position: center left;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            margin-bottom: 0; }
+            .product-wr .product-description-wrapp .right-side .butt-product-wr .one-b-wrapp .butt.butt-tel p span {
+              font-size: 14px; }
+          .product-wr .product-description-wrapp .right-side .butt-product-wr .one-b-wrapp .butt.butt-tel .look {
+            position: absolute;
+            top: 50%;
+            right: 13px;
+            transform: translateY(-50%);
+            color: #fff;
+            text-decoration: underline;
+            cursor: pointer;
+            font-size: 12px; }
+          .product-wr .product-description-wrapp .right-side .butt-product-wr .one-b-wrapp .butt.butt-send {
+            cursor: pointer; }
+            .product-wr .product-description-wrapp .right-side .butt-product-wr .one-b-wrapp .butt.butt-send p {
+              font-size: 20px;
+              text-align: center;
+              color: #fff; }
+        .product-wr .product-description-wrapp .right-side .butt-product-wr .one-b-wrapp:first-child {
+          padding-right: 8px; }
+        .product-wr .product-description-wrapp .right-side .butt-product-wr .one-b-wrapp:last-child {
+          padding-left: 8px; }
+    .product-wr .product-description-wrapp .right-side .tech-text-head {
+      font-size: 24px;
+      font-weight: normal;
+      margin-bottom: 14px;
+      font-family: RalewayBold;
+      padding-top: 8px; }
+    .product-wr .product-description-wrapp .right-side .characters .character {
+      display: flex;
+      margin-bottom: 14px;
+      align-items: center; }
+      .product-wr .product-description-wrapp .right-side .characters .character .property {
+        font-family: 'Raleway', sans-serif;
+        margin-bottom: 0;
+        width: 100%;
+        max-width: 350px;
+        display: flex;
+        background-image: url(../img/patern-list.jpg);
+        background-repeat: repeat-x;
+        background-position: bottom left;
+        line-height: 14px; }
+        .product-wr .product-description-wrapp .right-side .characters .character .property span {
+          display: block;
+          background: #fff;
+          padding-right: 10px; }
+      .product-wr .product-description-wrapp .right-side .characters .character .velue {
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 14px;
+        padding-left: 5px; }
+    .product-wr .product-description-wrapp .right-side .description-product h6 {
+      font-size: 24px;
+      font-weight: normal;
+      margin-bottom: 8px;
+      font-family: RalewayBold; }
+    .product-wr .product-description-wrapp .right-side .description-product p {
+      color: #696969;
+      font-size: 14px;
+      font-family: 'Raleway', sans-serif; }
+.product-wr .map-and-send {
+  display: flex;
+  align-items: flex-start; }
+  .product-wr .map-and-send .left-side {
+    width: 100%;
+    max-width: 930px;
+    padding-right: 45px; }
+    .product-wr .map-and-send .left-side .line {
+      display: flex;
+      position: relative;
+      margin-bottom: 17px; }
+      .product-wr .map-and-send .left-side .line:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        width: 100%;
+        height: 2px;
+        background: #27b949; }
+      .product-wr .map-and-send .left-side .line .head-form {
+        margin: 0;
+        position: relative;
+        background: #fff;
+        padding-right: 11px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 24px; }
+    .product-wr .map-and-send .left-side .second-tel-num {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px; }
+      .product-wr .map-and-send .left-side .second-tel-num img {
+        flex-shrink: 0;
+        margin-right: 13px; }
+      .product-wr .map-and-send .left-side .second-tel-num .tel-num {
+        font-size: 20px;
+        margin-bottom: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        margin-right: 14px; }
+        .product-wr .map-and-send .left-side .second-tel-num .tel-num span {
+          font-size: 14px; }
+      .product-wr .map-and-send .left-side .second-tel-num .look {
+        display: block;
+        font-size: 12px;
+        font-family: 'Raleway', sans-serif;
+        cursor: pointer;
+        text-decoration: underline; }
+    .product-wr .map-and-send .left-side form {
+      margin-bottom: 40px; }
+      .product-wr .map-and-send .left-side form .form-label {
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif;
+        margin-bottom: 7px;
+        padding-left: 10px; }
+      .product-wr .map-and-send .left-side form textarea {
+        display: block;
+        width: 100%;
+        height: 195px;
+        border-radius: 3px;
+        outline: none;
+        resize: none;
+        padding: 10px;
+        border: 1px solid #dcdcdc;
+        margin-bottom: 15px; }
+      .product-wr .map-and-send .left-side form .file-and-send {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        .product-wr .map-and-send .left-side form .file-and-send .l-s {
+          width: 100%;
+          max-width: 375px; }
+          .product-wr .map-and-send .left-side form .file-and-send .l-s p {
+            padding-left: 35px;
+            font-size: 14px;
+            color: #696969;
+            font-family: 'Raleway', sans-serif;
+            padding-right: 10px; }
+        .product-wr .map-and-send .left-side form .file-and-send .r-s button {
+          display: block;
+          padding: 10px 22px;
+          border: none;
+          background: #179936;
+          border: none;
+          border-radius: 3px;
+          font-size: 14px;
+          color: #fff;
+          font-family: 'Raleway', sans-serif;
+          outline: none; }
+          .product-wr .map-and-send .left-side form .file-and-send .r-s button span {
+            padding-left: 34px;
+            background-image: url(../img/white-send.png);
+            background-repeat: no-repeat;
+            background-position: center left; }
+  .product-wr .map-and-send .right-side {
+    width: 100%;
+    max-width: 500px; }
+    .product-wr .map-and-send .right-side .iframe-wrapp-map {
+      position: relative;
+      margin-bottom: 30px; }
+      .product-wr .map-and-send .right-side .iframe-wrapp-map iframe {
+        width: 100%;
+        display: block;
+        height: 225px;
+        border: none; }
+      .product-wr .map-and-send .right-side .iframe-wrapp-map .position-abs {
+        position: absolute;
+        z-index: 800;
+        width: 213px;
+        top: 17px;
+        left: 20px;
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 3px;
+        padding: 13px 17px; }
+        .product-wr .map-and-send .right-side .iframe-wrapp-map .position-abs p {
+          margin-bottom: 8px;
+          font-size: 14px;
+          font-family: 'Raleway', sans-serif;
+          padding-left: 17px;
+          background-image: url(../img/small-mark.png);
+          background-repeat: no-repeat;
+          background-position: top left; }
+        .product-wr .map-and-send .right-side .iframe-wrapp-map .position-abs a {
+          display: block;
+          text-align: center;
+          font-size: 12px;
+          color: #0098d0;
+          font-family: 'Raleway', sans-serif; }
+      .product-wr .map-and-send .right-side .iframe-wrapp-map .ava {
+        z-index: 800;
+        position: absolute;
+        left: 15px;
+        top: 175px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: #dcdcdc;
+        border: 2px solid #fff;
+        background-image: url(../img/none-avatar.png);
+        background-size: cover;
+        background-position: center; }
+      .product-wr .map-and-send .right-side .iframe-wrapp-map .name-autor {
+        background: #f9f9f9;
+        padding: 15px 0 25px 0; }
+        .product-wr .map-and-send .right-side .iframe-wrapp-map .name-autor p {
+          font-family: 'Raleway', sans-serif;
+          text-align: center;
+          max-width: 235px;
+          margin: 0 auto; }
+          .product-wr .map-and-send .right-side .iframe-wrapp-map .name-autor p.name {
+            color: #179936;
+            font-size: 24px;
+            margin: 0 auto 12px auto; }
+          .product-wr .map-and-send .right-side .iframe-wrapp-map .name-autor p.old {
+            color: #7f7d7d;
+            font-size: 12px; }
+    .product-wr .map-and-send .right-side .other-ad-wrapp {
+      display: flex;
+      justify-content: flex-end; }
+      .product-wr .map-and-send .right-side .other-ad-wrapp .other-ad {
+        display: block;
+        padding: 10px 22px;
+        background: #179936;
+        border: none;
+        border-radius: 3px;
+        font-size: 14px;
+        color: #fff;
+        font-family: 'Raleway', sans-serif;
+        outline: none; }
+        .product-wr .map-and-send .right-side .other-ad-wrapp .other-ad span {
+          padding-left: 34px;
+          background-image: url(../img/other-ad.png);
+          background-repeat: no-repeat;
+          background-position: center left; }
+
+.input_file .hidden-file {
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0; }
+.input_file label {
+  background: url(../img/screpka.png) 0 0;
+  height: 16px;
+  background-repeat: no-repeat;
+  min-width: 14px;
+  cursor: pointer;
+  padding-left: 35px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center; }
+  .input_file label .icon-up {
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Raleway', sans-serif;
+    color: #0098d0; }
+
+.products-wrapp .head-products .left-side.more-padding {
+  padding-left: 346px; }
+
+.contacts-page-text {
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 25px; }
+
+.contacts-map {
+  position: relative; }
+  .contacts-map #map {
+    height: 550px;
+    opacity: 0.6;
+    transition: 0.3s; }
+    .contacts-map #map:hover {
+      opacity: 1; }
+  .contacts-map .form-wrapp {
+    position: absolute;
+    right: 190px;
+    top: 55px;
+    width: 465px;
+    background: #fff;
+    z-index: 800;
+    -webkit-box-shadow: 3px 3px 90px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 3px 3px 90px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 90px 0px rgba(0, 0, 0, 0.1);
+    padding: 40px 45px; }
+    .contacts-map .form-wrapp .head-form {
+      font-size: 24px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+      margin-bottom: 50px;
+      line-height: 26px; }
+    .contacts-map .form-wrapp form input {
+      display: block;
+      width: 100%;
+      outline: none;
+      border: none;
+      border-bottom: 1px solid #cfd7da;
+      font-size: 14px;
+      margin-bottom: 40px;
+      padding: 17px 5px 17px 40px;
+      background-repeat: no-repeat;
+      background-position: center left 10px;
+      font-family: 'Raleway', sans-serif;
+      border-radius: 0; }
+      .contacts-map .form-wrapp form input::-webkit-input-placeholder {
+        color: #a3a4a6; }
+      .contacts-map .form-wrapp form input::-moz-placeholder {
+        color: #a3a4a6; }
+      .contacts-map .form-wrapp form input:-moz-placeholder {
+        color: #a3a4a6; }
+      .contacts-map .form-wrapp form input:-ms-input-placeholder {
+        color: #a3a4a6; }
+      .contacts-map .form-wrapp form input.tel-num {
+        background-image: url(../img/contact-tel.png); }
+      .contacts-map .form-wrapp form input.name-user {
+        background-image: url(../img/contact-name.png);
+        margin-bottom: 27px; }
+    .contacts-map .form-wrapp form textarea {
+      display: block;
+      width: 100%;
+      outline: none;
+      border: 1px solid #cfd7da;
+      padding: 17px;
+      font-size: 14px;
+      font-family: 'Raleway', sans-serif;
+      border-radius: 0;
+      resize: none;
+      height: 115px;
+      margin-bottom: 40px; }
+      .contacts-map .form-wrapp form textarea::-webkit-input-placeholder {
+        color: #a3a4a6; }
+      .contacts-map .form-wrapp form textarea::-moz-placeholder {
+        color: #a3a4a6; }
+      .contacts-map .form-wrapp form textarea:-moz-placeholder {
+        color: #a3a4a6; }
+      .contacts-map .form-wrapp form textarea:-ms-input-placeholder {
+        color: #a3a4a6; }
+    .contacts-map .form-wrapp form .captcha-wr {
+      margin-bottom: 40px; }
+    .contacts-map .form-wrapp form .one-checkbox {
+      margin-bottom: 40px; }
+    .contacts-map .form-wrapp form button {
+      display: block;
+      margin: 0 auto;
+      width: 100%;
+      max-width: 195px;
+      background: #179936;
+      color: #fff;
+      outline: none;
+      border: none;
+      border-radius: 3px;
+      font-size: 14px;
+      font-family: 'Raleway', sans-serif;
+      padding: 7px 0; }
+  .contacts-map .some-contact-info {
+    padding: 80px 0 110px 0; }
+    .contacts-map .some-contact-info .some-contact-info-header {
+      font-size: 24px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+      margin: 0;
+      margin-bottom: 16px; }
+    .contacts-map .some-contact-info .flex-info-contact {
+      display: flex;
+      max-width: 980px;
+      flex-wrap: wrap;
+      align-items: flex-start; }
+      .contacts-map .some-contact-info .flex-info-contact .contact-info {
+        width: 50%;
+        margin-bottom: 20px; }
+        .contacts-map .some-contact-info .flex-info-contact .contact-info p, .contacts-map .some-contact-info .flex-info-contact .contact-info a {
+          display: block;
+          font-size: 18px;
+          color: #a3a4a6;
+          font-family: 'Raleway', sans-serif;
+          background-repeat: no-repeat;
+          background-position: top 5px left;
+          padding-left: 35px;
+          padding-right: 20px; }
+        .contacts-map .some-contact-info .flex-info-contact .contact-info .adr-1 {
+          background-image: url(../img/adr-1.png); }
+        .contacts-map .some-contact-info .flex-info-contact .contact-info .adr-2 {
+          background-image: url(../img/adr-2.png); }
+        .contacts-map .some-contact-info .flex-info-contact .contact-info .adr-3 {
+          background-image: url(../img/adr-3.png); }
+        .contacts-map .some-contact-info .flex-info-contact .contact-info .adr-4 {
+          background-image: url(../img/adr-4.png); }
+
+.one-checkbox {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  overflow: hidden;
+  padding-top: 2px; }
+  .one-checkbox .check-style .checkbox {
+    width: 0;
+    height: 0;
+    display: block;
+    position: absolute;
+    left: -5000px;
+    top: 0; }
+  .one-checkbox .check-style label {
+    display: flex;
+    width: 18px;
+    height: 18px;
+    background: transparent;
+    border: 3px solid #d6d6d6;
+    position: relative;
+    cursor: pointer;
+    padding: 3px; }
+    .one-checkbox .check-style label:before {
+      content: "";
+      display: block;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      background: #179936;
+      opacity: 0; }
+  .one-checkbox .check-style .checkbox:checked + label {
+    border-color: #179936; }
+    .one-checkbox .check-style .checkbox:checked + label:before {
+      opacity: 1; }
+  .one-checkbox p {
+    padding-left: 15px;
+    color: #a3a4a6;
+    font-size: 12px;
+    color: #afafaf;
+    font-family: 'Raleway', sans-serif; }
+
+.login-registr {
+  margin-bottom: 30px; }
+  .login-registr .max-w-login-registr {
+    max-width: 1125px;
+    margin: 0 auto 30px auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between; }
+    .login-registr .max-w-login-registr .login {
+      width: 320px;
+      padding-right: 30px;
+      margin-bottom: 40px; }
+    .login-registr .max-w-login-registr .registration {
+      width: 640px;
+      margin-bottom: 40px; }
+    .login-registr .max-w-login-registr .head-form {
+      font-size: 24px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+      margin-bottom: 15px; }
+    .login-registr .max-w-login-registr form .inp-descr {
+      color: #8c8989;
+      font-family: 'Raleway', sans-serif;
+      margin-bottom: 15px; }
+    .login-registr .max-w-login-registr form .forgot-pass {
+      cursor: pointer;
+      display: block;
+      text-align: right;
+      font-size: 10px;
+      font-family: 'Raleway', sans-serif;
+      margin-bottom: 40px; }
+    .login-registr .max-w-login-registr form .soc-login {
+      font-size: 12px;
+      font-family: 'Raleway', sans-serif;
+      text-transform: uppercase;
+      margin-bottom: 15px; }
+    .login-registr .max-w-login-registr form .soc-links {
+      margin-bottom: 40px; }
+    .login-registr .max-w-login-registr form input {
+      display: block;
+      width: 100%;
+      outline: none;
+      border: none;
+      border-bottom: 1px solid #cfd7da;
+      font-size: 18px;
+      margin-bottom: 40px;
+      padding: 7px 5px 7px 33px;
+      max-width: 290px;
+      background-repeat: no-repeat;
+      background-position: center left 10px;
+      border-radius: 0;
+      font-family: 'Montserrat', sans-serif; }
+      .login-registr .max-w-login-registr form input.small-font {
+        font-family: 'Raleway', sans-serif;
+        font-size: 12px;
+        margin-bottom: 15px;
+        padding: 14px 5px 14px 33px; }
+        .login-registr .max-w-login-registr form input.small-font.more-margin {
+          margin-bottom: 50px; }
+      .login-registr .max-w-login-registr form input::-webkit-input-placeholder {
+        color: #c3c3c3; }
+      .login-registr .max-w-login-registr form input::-moz-placeholder {
+        color: #c3c3c3; }
+      .login-registr .max-w-login-registr form input:-moz-placeholder {
+        color: #c3c3c3; }
+      .login-registr .max-w-login-registr form input:-ms-input-placeholder {
+        color: #c3c3c3; }
+    .login-registr .max-w-login-registr form .submit-button {
+      display: block;
+      margin-left: auto;
+      width: 100%;
+      max-width: 195px;
+      background: #f8f8f8;
+      color: #000;
+      outline: none;
+      border: none;
+      border-radius: 3px;
+      font-size: 14px;
+      font-family: 'Raleway', sans-serif;
+      padding: 7px 0; }
+      .login-registr .max-w-login-registr form .submit-button.active {
+        color: #fff;
+        background: #179936; }
+      .login-registr .max-w-login-registr form .submit-button.center-line {
+        margin: 0 auto; }
+      .login-registr .max-w-login-registr form .submit-button.more-width {
+        margin: 0;
+        margin: 0;
+        max-width: 235px; }
+    .login-registr .max-w-login-registr form .one-checkbox {
+      max-width: 347px;
+      margin-bottom: 35px; }
+    .login-registr .max-w-login-registr form .sides-wr {
+      display: flex;
+      align-items: center;
+      margin-bottom: 26px;
+      justify-content: space-between; }
+      .login-registr .max-w-login-registr form .sides-wr .side {
+        width: 100%;
+        max-width: 285px; }
+        .login-registr .max-w-login-registr form .sides-wr .side input {
+          margin-bottom: 0; }
+
+.page-only-text {
+  margin-bottom: 55px; }
+  .page-only-text .centered-header {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    max-width: 720px;
+    margin: 0 auto 35px auto; }
+  .page-only-text .m-w-text {
+    max-width: 1160px; }
+    .page-only-text .m-w-text h1, .page-only-text .m-w-text h2, .page-only-text .m-w-text h3, .page-only-text .m-w-text h4, .page-only-text .m-w-text h5, .page-only-text .m-w-text h6 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+      font-size: 24px;
+      margin-bottom: 10px;
+      margin-top: 30px; }
+    .page-only-text .m-w-text p {
+      margin-bottom: 20px;
+      font-size: 14px;
+      color: #696969;
+      font-family: 'Raleway', sans-serif; }
+    .page-only-text .m-w-text a, .page-only-text .m-w-text span {
+      color: #057adc; }
+    .page-only-text .m-w-text ol {
+      margin: 0;
+      padding-left: 20px; }
+      .page-only-text .m-w-text ol span {
+        color: #000000;
+        font-weight: 700; }
+      .page-only-text .m-w-text ol p {
+        color: #696969; }
+    .page-only-text .m-w-text ul {
+      margin: 0;
+      list-style: none;
+      font-family: 'Raleway', sans-serif;
+      padding: 0; }
+  .page-only-text .abs-visa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px; }
+    .page-only-text .abs-visa .rel-wrapp {
+      position: relative; }
+      .page-only-text .abs-visa .rel-wrapp .item-payment {
+        position: absolute;
+        width: 370px; }
+        .page-only-text .abs-visa .rel-wrapp .item-payment:before {
+          content: "";
+          display: block;
+          position: absolute;
+          background-repeat: no-repeat;
+          background-position: center; }
+        .page-only-text .abs-visa .rel-wrapp .item-payment .head {
+          margin-bottom: 15px;
+          font-family: 'Raleway', sans-serif;
+          font-weight: 700; }
+        .page-only-text .abs-visa .rel-wrapp .item-payment .descr {
+          font-size: 11px;
+          color: #696969;
+          font-family: 'Raleway', sans-serif; }
+        .page-only-text .abs-visa .rel-wrapp .item-payment.item-1 {
+          top: 24%;
+          right: 89%; }
+          .page-only-text .abs-visa .rel-wrapp .item-payment.item-1:before {
+            top: -27px;
+            left: 89%;
+            width: 61px;
+            height: 61px;
+            background-image: url(../img/payment-1.png); }
+        .page-only-text .abs-visa .rel-wrapp .item-payment.item-2 {
+          top: 24%;
+          left: 100%; }
+          .page-only-text .abs-visa .rel-wrapp .item-payment.item-2:before {
+            top: -10px;
+            right: 105%;
+            width: 47px;
+            height: 47px;
+            background-image: url(../img/payment-2.png); }
+        .page-only-text .abs-visa .rel-wrapp .item-payment.item-3 {
+          top: 88%;
+          right: 73%; }
+          .page-only-text .abs-visa .rel-wrapp .item-payment.item-3:before {
+            top: -27px;
+            left: 100%;
+            width: 47px;
+            height: 47px;
+            background-image: url(../img/payment-3.png); }
+        .page-only-text .abs-visa .rel-wrapp .item-payment.item-4 {
+          top: 62%;
+          left: 94%; }
+          .page-only-text .abs-visa .rel-wrapp .item-payment.item-4:before {
+            top: -10px;
+            right: 105%;
+            width: 47px;
+            height: 47px;
+            background-image: url(../img/payment-4.png); }
 
 /*# sourceMappingURL=style.css.map */
