@@ -43,7 +43,7 @@ body{
                 }
                 .link-menu{
                     display: block;
-                    padding: 10px 2.5px;
+                    padding: 5px 2.5px;
                     cursor: pointer;
                     font-size: 14px;
                     color: #cfcfcf;
@@ -59,7 +59,7 @@ body{
 }
 .lang_block {
     position: relative;
-    top: -2px;
+    top: 1px;
     text-transform: uppercase;
     cursor: pointer;
     .flag_cur {
@@ -67,7 +67,7 @@ body{
         font-size: 14px;
         color: #373737;
         background-repeat: no-repeat;
-        background-position: top 3px left;
+        background-position: top 4px left;
     }
 }
 
@@ -109,7 +109,7 @@ body{
                     padding: 0 32.5px;
                     a,span{
                         display: block;
-                        padding: 18px 0;
+                        padding: 10px 0;
                         display: block;
                         cursor: pointer;
                         font-size: 24px;
@@ -137,6 +137,7 @@ body{
                 margin-right: 26px;
                 padding: 7px 33px;
                 transition: 0.3s;
+                cursor: pointer;
 
                 &:hover {
                     background: rgba(23, 153, 54, 0.7);
@@ -160,7 +161,7 @@ body{
     }
 }
 .main-baner{
-    height: 450px;
+    height: 325px;
     position: relative;
     background-size: cover;
     background-position: center;
@@ -257,15 +258,23 @@ body{
         }
     }
 }
+#search-pane {
+    margin-bottom: 0!important;
+}
 .tech-types{
     margin-top: -15px;
     margin-bottom: 30px;
     h1,h2,h3,h4,h5,h6{
         font-family: RalewayBold;
         font-weight: normal;
-        font-size: 24px;
+        font-size: 20px;
         margin: 0;
-        margin-bottom: 60px;
+        margin-bottom: 30px;
+    }
+    .categories_wrap {
+        background: #f8f9fb;
+        padding-top: 10px;
+        padding-bottom: 5px;
     }
     .categories{
         display: flex;
@@ -284,7 +293,7 @@ body{
 
             img{
                 margin: 0 auto 5px auto;
-                
+                max-width: 45%;                
             }
             a,span{
                 display: block;
@@ -307,7 +316,7 @@ body{
         margin-bottom: 30px;
         .left-side{
             h1,h2,h3,h4,h5,h6{
-                font-size: 24px;
+                font-size: 20px;
                 font-weight: normal;
                 font-family: RalewayBold;
                 margin: 0;
@@ -378,7 +387,8 @@ body{
                         top: 0;
                         right: 0;
                         z-index: 5;
-                        background: #fff;
+                        background: #179936;
+                        color: #fff;
                         width: 77px;
                         padding: 7px 5px;
                     }
