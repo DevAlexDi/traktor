@@ -58,7 +58,16 @@
     .product-wr .product-description-wrapp .left-side{
         max-width: 400px;
             background-position: top 3px left;
-    }  
+    }
+    .page-only-text .abs-visa .rel-wrapp{
+        img{
+                max-width: 420px;
+        }
+    }
+    .page-only-text .abs-visa .rel-wrapp .item-payment.item-4{
+        left: 98%;
+    }
+    
 }
 @media (max-width: 1300px) {
     .main-m-w {
@@ -137,6 +146,12 @@
     .contacts-map #map {
         height: 450px;
     }
+    
+    .page-only-text .abs-visa .rel-wrapp .item-payment{
+        width: 255px;
+    }
+    
+    
     
     
 }
@@ -265,7 +280,55 @@
     .contacts-map .some-contact-info {
         padding: 0 0 80px 0;
     }
+    .login-registr .max-w-login-registr{
+        display: block;
+    }
+    .login-registr .max-w-login-registr .login{
+        padding-right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .login-registr .max-w-login-registr .registration{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .page-only-text .abs-visa .rel-wrapp img {
+        max-width: 300px;
+    }
+    .page-only-text .abs-visa .rel-wrapp .item-payment {
+        width: 200px;
+        right: auto!important;
+        left: auto!important;
+        top: auto!important;
+        position: relative;
+        width: 50%;
+        padding-left: 50px;
+        padding-right: 10px;
+        margin-bottom: 20px;
+        &:before{
+            left: 0!important;
+            top: 0!important;
+            background-size: contain;
+            width: 40px!important;
+            height: 40px!important;
+            
+        }
+    }
     
+    .page-only-text .abs-visa .rel-wrapp{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    .page-only-text .abs-visa .rel-wrapp{
+        .img-wrapp{
+            width: 100%;
+            img{
+                margin: 0 auto 20px auto;
+            }
+        }
+    }
     
     
 }
@@ -519,18 +582,37 @@
     .contacts-map .some-contact-info{
         padding: 30px 0;
     }
+    .login-registr .max-w-login-registr form .sides-wr{
+        display: block;
+    }
+    .login-registr .max-w-login-registr .login{
+        width: auto;
+        max-width: 320px;
+    }
     
+    .login-registr .max-w-login-registr .registration{
+        width: auto;
+        max-width: 320px;
+    }
     
+    .login-registr .max-w-login-registr form .sides-wr .side input{
+        margin-bottom: 20px;
+    }
     
+    .page-only-text .abs-visa .rel-wrapp .item-payment{
+        width: 100%;
+        padding-right: 0;
+    }
     
-    
-    
-    
-    
-    
-    
-    
-    
+    .page-only-text .abs-visa{
+        margin-bottom: 30px;
+    }
+    .page-only-text .abs-visa .rel-wrapp img{
+        max-width: 290px;
+    }
+    .page-only-text .centered-header{
+        font-size: 19px;
+    }
     
     
     

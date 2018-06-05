@@ -1029,7 +1029,7 @@ body {
   margin-bottom: 30px; }
   .login-registr .max-w-login-registr {
     max-width: 1125px;
-    margin: 0 auto;
+    margin: 0 auto 30px auto;
     display: flex;
     align-items: flex-start;
     justify-content: space-between; }
@@ -1038,7 +1038,8 @@ body {
       padding-right: 30px;
       margin-bottom: 40px; }
     .login-registr .max-w-login-registr .registration {
-      width: 640px; }
+      width: 640px;
+      margin-bottom: 40px; }
     .login-registr .max-w-login-registr .head-form {
       font-size: 24px;
       font-family: 'Raleway', sans-serif;
@@ -1079,7 +1080,10 @@ body {
       .login-registr .max-w-login-registr form input.small-font {
         font-family: 'Raleway', sans-serif;
         font-size: 12px;
-        margin-bottom: 15px; }
+        margin-bottom: 15px;
+        padding: 14px 5px 14px 33px; }
+        .login-registr .max-w-login-registr form input.small-font.more-margin {
+          margin-bottom: 50px; }
       .login-registr .max-w-login-registr form input::-webkit-input-placeholder {
         color: #c3c3c3; }
       .login-registr .max-w-login-registr form input::-moz-placeholder {
@@ -1104,5 +1108,123 @@ body {
       .login-registr .max-w-login-registr form .submit-button.active {
         color: #fff;
         background: #179936; }
+      .login-registr .max-w-login-registr form .submit-button.center-line {
+        margin: 0 auto; }
+      .login-registr .max-w-login-registr form .submit-button.more-width {
+        margin: 0;
+        margin: 0;
+        max-width: 235px; }
+    .login-registr .max-w-login-registr form .one-checkbox {
+      max-width: 347px;
+      margin-bottom: 35px; }
+    .login-registr .max-w-login-registr form .sides-wr {
+      display: flex;
+      align-items: center;
+      margin-bottom: 26px;
+      justify-content: space-between; }
+      .login-registr .max-w-login-registr form .sides-wr .side {
+        width: 100%;
+        max-width: 285px; }
+        .login-registr .max-w-login-registr form .sides-wr .side input {
+          margin-bottom: 0; }
+
+.page-only-text {
+  margin-bottom: 55px; }
+  .page-only-text .centered-header {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    max-width: 720px;
+    margin: 0 auto 35px auto; }
+  .page-only-text .m-w-text {
+    max-width: 1160px; }
+    .page-only-text .m-w-text h1, .page-only-text .m-w-text h2, .page-only-text .m-w-text h3, .page-only-text .m-w-text h4, .page-only-text .m-w-text h5, .page-only-text .m-w-text h6 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+      font-size: 24px;
+      margin-bottom: 10px;
+      margin-top: 30px; }
+    .page-only-text .m-w-text p {
+      margin-bottom: 20px;
+      font-size: 14px;
+      color: #696969;
+      font-family: 'Raleway', sans-serif; }
+    .page-only-text .m-w-text a, .page-only-text .m-w-text span {
+      color: #057adc; }
+    .page-only-text .m-w-text ol {
+      margin: 0;
+      padding-left: 20px; }
+      .page-only-text .m-w-text ol span {
+        color: #000000;
+        font-weight: 700; }
+      .page-only-text .m-w-text ol p {
+        color: #696969; }
+    .page-only-text .m-w-text ul {
+      margin: 0;
+      list-style: none;
+      font-family: 'Raleway', sans-serif;
+      padding: 0; }
+  .page-only-text .abs-visa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px; }
+    .page-only-text .abs-visa .rel-wrapp {
+      position: relative; }
+      .page-only-text .abs-visa .rel-wrapp .item-payment {
+        position: absolute;
+        width: 370px; }
+        .page-only-text .abs-visa .rel-wrapp .item-payment:before {
+          content: "";
+          display: block;
+          position: absolute;
+          background-repeat: no-repeat;
+          background-position: center; }
+        .page-only-text .abs-visa .rel-wrapp .item-payment .head {
+          margin-bottom: 15px;
+          font-family: 'Raleway', sans-serif;
+          font-weight: 700; }
+        .page-only-text .abs-visa .rel-wrapp .item-payment .descr {
+          font-size: 11px;
+          color: #696969;
+          font-family: 'Raleway', sans-serif; }
+        .page-only-text .abs-visa .rel-wrapp .item-payment.item-1 {
+          top: 24%;
+          right: 89%; }
+          .page-only-text .abs-visa .rel-wrapp .item-payment.item-1:before {
+            top: -27px;
+            left: 89%;
+            width: 61px;
+            height: 61px;
+            background-image: url(../img/payment-1.png); }
+        .page-only-text .abs-visa .rel-wrapp .item-payment.item-2 {
+          top: 24%;
+          left: 100%; }
+          .page-only-text .abs-visa .rel-wrapp .item-payment.item-2:before {
+            top: -10px;
+            right: 105%;
+            width: 47px;
+            height: 47px;
+            background-image: url(../img/payment-2.png); }
+        .page-only-text .abs-visa .rel-wrapp .item-payment.item-3 {
+          top: 88%;
+          right: 73%; }
+          .page-only-text .abs-visa .rel-wrapp .item-payment.item-3:before {
+            top: -27px;
+            left: 100%;
+            width: 47px;
+            height: 47px;
+            background-image: url(../img/payment-3.png); }
+        .page-only-text .abs-visa .rel-wrapp .item-payment.item-4 {
+          top: 62%;
+          left: 94%; }
+          .page-only-text .abs-visa .rel-wrapp .item-payment.item-4:before {
+            top: -10px;
+            right: 105%;
+            width: 47px;
+            height: 47px;
+            background-image: url(../img/payment-4.png); }
 
 /*# sourceMappingURL=style.css.map */

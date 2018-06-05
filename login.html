@@ -140,7 +140,7 @@
                                     <h2 class="head-form">Вход</h2>
                                     <form>
                                         <p class="inp-descr">Ваш телефон</p>
-                                        <input type="text" class="tel-init" placeholder="+7(___)___-__-__">
+                                        <input type="text" class="tel-init" placeholder="+7 (___) ___-__-__">
                                         <p class="inp-descr">Пароль</p>
                                         <input type="password" class="small-font" placeholder="Введите свой пароль">
                                         <span class="forgot-pass">Восстановить пароль</span>
@@ -152,23 +152,35 @@
                                 <div class="registration">
                                     <h2 class="head-form">Регистрация</h2>
                                     <form>
-                                        <p class="inp-descr">Логин</p>
+                                        <p class="inp-descr">Ваш телефон</p>
                                         <div class="sides-wr">
                                             <div class="side">
-                                                <input type="text" class="tel-init" placeholder="+7(___)___-__-__">
+                                                <input type="text" class="tel-init" placeholder="+7 (___) ___-__-__">
                                             </div>
                                             <div class="side">
-                                                <button class="submit-button">Выслать код подтверждения</button>
+                                                <button class="submit-button more-width">Выслать код подтверждения</button>
                                             </div>
                                         </div>
+                                        <input type="text" class="small-font more-margin" placeholder="Код СМС">
+                                        <div class="sides-wr">
+                                            <div class="side">
+                                                <p class="inp-descr">Пароль</p>
+                                                <input type="password" class="small-font" placeholder="Введите свой пароль">
+                                            </div>
+                                            <div class="side">
+                                                <p class="inp-descr">Подтвердите пароль</p>
+                                                <input type="password" class="small-font" placeholder="Введите пароль еще раз">
+                                            </div>
+                                        </div>
+                                        <div class="one-checkbox">
+                                            <div class="check-style">
+                                                <input type="checkbox" class="checkbox" name="" id="checkbox-1" checked>
+                                                <label for="checkbox-1"></label>
+                                            </div>
+                                            <p>Вы соглашаетесь с условиями обработки персональных данных <span>(ознакомиться)</span></p>
+                                        </div>
                                         
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        <button class="submit-button active" type="submit">Зарегистрироваться</button>
+                                        <button class="submit-button center-line active" type="submit">Зарегистрироваться</button>
                                     </form>
                                 </div>
                             </div>
@@ -310,13 +322,14 @@
             </div>
         </footer>
     </section>
-    
-    <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/inputmask.js"></script>
+    <script src="js/jquery.inputmask.js"></script>
     <script src="js/scripts.js"></script>
-    <script src="js/map-init.js"></script>
+
 </body>
 
 </html>

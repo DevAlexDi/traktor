@@ -13,6 +13,9 @@ $(document).ready(function () {
         }
     });
 
+    
+    //языки
+    
     $('.lang_block').click(function(e) {
         e.stopPropagation();
         $(this).find('.lang_select').slideToggle();
@@ -21,7 +24,7 @@ $(document).ready(function () {
         $('.lang_block .lang_select').slideUp();
     });
 
-    
+    //slider
     
      $('.for-slider').slick({
       slidesToShow: 1,
@@ -59,6 +62,15 @@ $(document).ready(function () {
             }
         });
     });
+    
+    
+    //тел маска
+    $('.tel-init').inputmask({
+        "mask": "+7 (999) 999-99-99"
+            , "placeholder": "_"
+            , showMaskOnHover: false
+            , showMaskOnFocus: true
+        });
     
     
     
