@@ -24,6 +24,11 @@ $(document).ready(function () {
         $('.lang_block .lang_select').slideUp();
     });
 
+    $('body').on('click', '.clicking_item', function(e) {
+        e.preventDefault();
+        window.location.href = $(this).find('a').attr('href');
+    });
+
     //slider
     
      $('.for-slider').slick({

@@ -14,9 +14,6 @@
   .products-wrapp .all-product .one-product-wr .one-product a {
     font-size: 17px; }
 
-  .logo-wrapp .main-m-w .mid-side .categorys li a, .logo-wrapp .main-m-w .mid-side .categorys li span {
-    font-size: 20px; }
-
   .contacts-map .form-wrapp {
     right: 80px; } }
 @media (max-width: 1500px) {
@@ -66,9 +63,6 @@
 @media (max-width: 1400px) {
   .tech-types .categories li {
     width: 14%; }
-
-  .logo-wrapp .main-m-w .mid-side .categorys li a, .logo-wrapp .main-m-w .mid-side .categorys li span {
-    font-size: 18px; }
 
   .logo-wrapp .main-m-w .mid-side .categorys li {
     padding: 0 17.5px; }
@@ -121,9 +115,6 @@
 
   .products-wrapp .head-products .right-side {
     margin: 0 auto 20px auto; }
-
-  .logo-wrapp .main-m-w .mid-side .categorys li a, .logo-wrapp .main-m-w .mid-side .categorys li span {
-    font-size: 15px; }
 
   .tech-types .categories li {
     width: 20%; }
