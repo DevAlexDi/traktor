@@ -1970,3 +1970,75 @@ body{
         }
     }
 }
+.l-k-main-wrapp{
+    margin-bottom: 80px;
+    .l-k-max-w{
+        display: flex;
+        max-width: 1330px;
+        .left-side{
+            
+            width: 70%;
+            
+        }
+        .right-side{
+            width: 30%;
+            padding-left: 30px;
+            .cash-wrapp{
+                background: #f9f9f9;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 18px 28px;
+                 margin-bottom: 40px;
+                .l-side{
+                    p{
+                        font-size: 12px;
+                        font-family: 'Raleway', sans-serif;
+                        line-height: 20px;
+                        .count{
+                            font-family: 'Montserrat', sans-serif;
+                            font-weight: 700;
+                            font-size: 18px;
+                        }
+                        .cur{
+                            font-family: 'Raleway', sans-serif;
+                            font-weight: 700;
+                            font-size: 14px;
+                        }
+                    }
+                }
+                .r-side{
+                    .top-cash{
+                        font-size: 14px;
+                        color: #fff;
+                        background: #179936;
+                        border-radius: 3px;
+                        display: block;
+                        padding: 9px 16px;
+                       
+                    }
+                   
+                }
+                
+            }
+            .other-links-l-k{
+                .other-link-l-k{
+                    display: block;
+                    width: 100%;
+                    margin-bottom: 12px;
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 12px;
+                    color: #fff;
+                    background: #d0d0d0;
+                    border-radius: 3px;
+                    padding: 7px;
+                    text-align: center;
+
+                    &.active{
+                        background: #2c3640;
+                    }
+                }
+            }
+        }
+    }
+}
