@@ -1568,6 +1568,241 @@ body {
     max-width: 1330px; }
     .l-k-main-wrapp .l-k-max-w .left-side {
       width: 70%; }
+      .l-k-main-wrapp .l-k-max-w .left-side .tabs-header-l-k {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 40px; }
+        .l-k-main-wrapp .l-k-max-w .left-side .tabs-header-l-k span {
+          cursor: pointer;
+          display: block;
+          margin-right: 10px;
+          font-size: 18px;
+          font-family: 'Raleway', sans-serif;
+          padding: 10px 19px;
+          border-radius: 3px; }
+          .l-k-main-wrapp .l-k-max-w .left-side .tabs-header-l-k span.active {
+            background: #179936;
+            color: #fff; }
+      .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv {
+        margin-bottom: 40px; }
+        .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv.active .my-adv-bott .l-s .name-my-adv .ava:before {
+          background: #179936; }
+        .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-top {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-bottom: 10px; }
+          .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-top .l-s p {
+            font-size: 12px;
+            color: #696969;
+            font-family: 'Raleway', sans-serif; }
+          .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-top .r-s {
+            display: flex;
+            align-items: center; }
+            .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-top .r-s .info {
+              display: flex;
+              align-items: center; }
+              .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-top .r-s .info a, .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-top .r-s .info span {
+                display: block;
+                margin-right: 19px;
+                font-family: 'Montserrat', sans-serif;
+                padding-left: 19px;
+                color: #797878;
+                background-repeat: no-repeat;
+                background-position: center left;
+                font-size: 12px; }
+                .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-top .r-s .info a.look, .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-top .r-s .info span.look {
+                  background-image: url(../img/look-l-k.png); }
+                .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-top .r-s .info a.tel, .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-top .r-s .info span.tel {
+                  background-image: url(../img/tel-lk.png); }
+                .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-top .r-s .info a.favor, .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-top .r-s .info span.favor {
+                  background-image: url(../img/favor.png); }
+            .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-top .r-s .top-options {
+              display: flex;
+              align-items: center; }
+              .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-top .r-s .top-options .edit {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 10px;
+                font-weight: 700;
+                display: block;
+                cursor: pointer;
+                background-repeat: no-repeat;
+                padding-right: 19px;
+                margin-left: 14px;
+                background-image: url(../img/edit.png);
+                background-position: center right; }
+              .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-top .r-s .top-options .delete {
+                font-weight: 700;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 10px;
+                display: block;
+                cursor: pointer;
+                background-repeat: no-repeat;
+                padding-right: 19px;
+                margin-left: 14px;
+                background-image: url(../img/delete.png);
+                background-position: center right; }
+        .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-bott {
+          display: flex;
+          background: #f9f9f9;
+          justify-content: space-between;
+          align-items: center;
+          padding: 10px;
+          border-radius: 3px; }
+          .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-bott .l-s {
+            width: 50%;
+            display: flex;
+            align-items: center; }
+            .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-bott .l-s .check-cart {
+              width: 15%;
+              display: flex;
+              justify-content: center;
+              align-items: center; }
+            .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-bott .l-s .name-my-adv {
+              width: 42.5%;
+              display: flex;
+              align-items: center; }
+              .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-bott .l-s .name-my-adv .ava {
+                width: 64px;
+                height: 64px;
+                flex-shrink: 0;
+                margin-right: 20px;
+                border-radius: 50%;
+                position: relative;
+                border: 2px solid #fff;
+                -webkit-box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.46);
+                -moz-box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.46);
+                box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.46);
+                background-size: cover;
+                background-position: center; }
+                .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-bott .l-s .name-my-adv .ava:before {
+                  content: "";
+                  display: block;
+                  position: absolute;
+                  top: 0;
+                  right: 0;
+                  width: 20px;
+                  height: 20px;
+                  border-radius: 50%;
+                  border: 5px solid #fff;
+                  background: #d0d0d0; }
+              .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-bott .l-s .name-my-adv .name .qui {
+                font-size: 9px;
+                color: #fff;
+                padding: 3px 23px;
+                background: #ff0000;
+                border-radius: 3px; }
+              .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-bott .l-s .name-my-adv .name .name-text {
+                font-size: 12px;
+                font-family: 'Raleway', sans-serif;
+                line-height: 24px;
+                font-weight: 700;
+                width: 105px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis; }
+            .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-bott .l-s .price-tr {
+              width: 42.5%;
+              display: flex;
+              align-items: center;
+              justify-content: flex-end;
+              padding-right: 25px; }
+              .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-bott .l-s .price-tr .price-t {
+                font-size: 12px;
+                font-family: 'Montserrat', sans-serif;
+                margin-bottom: 0;
+                margin-right: 14px; }
+              .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-bott .l-s .price-tr select {
+                display: block;
+                width: 50px;
+                border-radius: 3px;
+                color: #fff;
+                font-family: RalewayBold;
+                text-transform: uppercase;
+                height: 22px;
+                /*for WebKit*/
+                -webkit-appearance: none;
+                /* for FF */
+                -moz-appearance: none;
+                text-indent: 0.01px;
+                text-overflow: '';
+                /* for IE */
+                -ms-appearance: none;
+                appearance: none !important;
+                background-image: url(../img/select-arr.png);
+                background-position: right 5px center;
+                background-repeat: no-repeat;
+                background-color: #179936;
+                padding-left: 8px;
+                outline: none;
+                font-size: 11px; }
+              .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-bott .l-s .price-tr select::-ms-expand {
+                display: none; }
+          .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-bott .r-s {
+            width: 50%;
+            display: flex;
+            align-items: center; }
+            .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-bott .r-s .looks {
+              width: 100%; }
+              .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-bott .r-s .looks span {
+                display: block;
+                text-align: center;
+                font-size: 20px;
+                color: #d0d0d0;
+                margin-bottom: 5px;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 700; }
+              .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-bott .r-s .looks p {
+                text-align: center;
+                font-size: 10px;
+                color: #848383;
+                font-family: 'Raleway', sans-serif; }
+            .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-bott .r-s .messages-wr {
+              width: 100%; }
+              .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-bott .r-s .messages-wr .messages {
+                width: 67px;
+                border: 1px solid #dcdcdc;
+                border-radius: 3px;
+                padding: 6px 0 6px 29px;
+                background-repeat: no-repeat;
+                background-image: url(../img/mess-l-k.png);
+                background-position: center left 9px;
+                margin: 0 auto; }
+                .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-bott .r-s .messages-wr .messages p {
+                  font-size: 14px;
+                  color: #d0d0d0;
+                  font-family: 'Montserrat', sans-serif;
+                  text-align: center; }
+            .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-bott .r-s .buttons-my-adv {
+              flex-shrink: 0;
+              width: 133px; }
+              .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-bott .r-s .buttons-my-adv .to-up {
+                display: block;
+                width: 100%;
+                border: none;
+                outline: none;
+                color: #fff;
+                font-size: 12px;
+                border-radius: 3px;
+                background: #179936;
+                padding: 5px 0;
+                margin-bottom: 6px; }
+              .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-bott .r-s .buttons-my-adv .activate {
+                display: block;
+                width: 100%;
+                border: none;
+                outline: none;
+                color: #fff;
+                font-size: 12px;
+                border-radius: 3px;
+                background: #d0d0d0;
+                padding: 5px 0; }
+                .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-bott .r-s .buttons-my-adv .activate span {
+                  padding-left: 13px;
+                  font-weight: 700; }
+                .l-k-main-wrapp .l-k-max-w .left-side .tabs-body-l-k .one-my-adv .my-adv-bott .r-s .buttons-my-adv .activate.active {
+                  background: #2c3640; }
     .l-k-main-wrapp .l-k-max-w .right-side {
       width: 30%;
       padding-left: 30px; }

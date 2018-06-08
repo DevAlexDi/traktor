@@ -1976,8 +1976,356 @@ body{
         display: flex;
         max-width: 1330px;
         .left-side{
-            
             width: 70%;
+            .tabs-header-l-k{
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                margin-bottom: 40px;
+                span{
+                    cursor: pointer;
+                    display: block;
+                    margin-right: 10px;
+                    font-size: 18px;
+                    font-family: 'Raleway', sans-serif;
+                    padding: 10px 19px;
+                    border-radius: 3px;
+                    &.active{
+                        background: #179936;
+                        color: #fff;
+                    }
+                }
+            }
+            .tabs-body-l-k{
+                
+                .one-my-adv{
+                    margin-bottom: 40px;
+                    &.active{
+                        .my-adv-bott{
+                            .l-s{
+                                .name-my-adv{
+                                    .ava{
+                                        &:before{
+                                            background: #179936;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .my-adv-top{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        margin-bottom: 10px;
+                        .l-s{
+                            p{
+                                font-size: 12px;
+                                color: #696969;
+                                font-family: 'Raleway', sans-serif;
+                            }
+                        }
+                        .r-s{
+                            display: flex;
+                            align-items: center;
+                            .info{
+                                display: flex;
+                                align-items: center;
+                                a,span{
+                                    display: block;
+                                    margin-right: 19px;
+                                    font-family: 'Montserrat', sans-serif;
+                                    padding-left: 19px;
+                                    color: #797878;
+                                    background-repeat: no-repeat;
+                                    background-position: center left;
+                                    font-size: 12px;
+                                    &.look{
+                                        background-image: url(../img/look-l-k.png);
+                                    }
+                                    &.tel{
+                                        background-image: url(../img/tel-lk.png);
+                                    }
+                                    &.favor{
+                                        background-image: url(../img/favor.png);
+                                    }
+                                }
+                            }
+                            .top-options{
+                                display: flex;
+                                align-items: center;
+                                .edit{
+                                   font-family: 'Montserrat', sans-serif;
+                                    font-size: 10px;
+                                    font-weight: 700;
+                                    display: block;
+                                    cursor: pointer;
+                                    background-repeat: no-repeat;
+                                    padding-right: 19px;
+                                    margin-left: 14px;
+                                    background-image: url(../img/edit.png);
+                                    background-position: center right;
+                                }
+                                .delete{
+                                    font-weight: 700;
+                                   font-family: 'Montserrat', sans-serif;
+                                    font-size: 10px;
+                                    display: block;
+                                    cursor: pointer;
+                                    background-repeat: no-repeat;
+                                    padding-right: 19px;
+                                    margin-left: 14px;
+                                    background-image: url(../img/delete.png);
+                                    background-position: center right;
+                                }
+                            }
+                        }
+                    }
+                    .my-adv-bott{
+                        display: flex;
+                        background: #f9f9f9;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: 10px;
+                        border-radius: 3px;
+                        .l-s{
+                            width: 50%;
+                            display: flex;
+                            align-items: center;
+                            .check-cart{
+                                width: 15%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                            .name-my-adv{
+                                width: 42.5%;
+                                display: flex;
+                                align-items: center;
+                                .ava{
+                                    width: 64px;
+                                    height: 64px;
+                                    flex-shrink: 0;
+                                    margin-right: 20px;
+                                    border-radius: 50%;
+                                    position: relative;
+                                    border: 2px solid #fff;
+                                    -webkit-box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.46);
+                                    -moz-box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.46);
+                                    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.46);
+                                    background-size: cover;
+                                    background-position: center;
+                                    &:before{
+                                        content: "";
+                                        display: block;
+                                        position: absolute;
+                                        top: 0;
+                                        right: 0;
+                                        width: 20px;
+                                        height: 20px;
+                                        border-radius: 50%;
+                                        border: 5px solid #fff;
+                                        background: #d0d0d0;
+                                    }
+                                }
+                                .name{
+                                    .qui{
+                                       font-size: 9px;
+                                        color: #fff;
+                                        padding: 3px 23px;
+                                        background: #ff0000;
+                                        border-radius: 3px;
+                                        
+                                    }
+                                    .name-text{
+                                        font-size: 12px;
+                                        font-family: 'Raleway', sans-serif;
+                                        line-height: 24px;
+                                        font-weight: 700;
+                                        width: 105px;
+                                        white-space: nowrap;
+                                        overflow: hidden;
+                                        text-overflow: ellipsis;
+                                    }
+                                }
+                            }
+                            .price-tr{
+                                width: 42.5%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: flex-end;
+                                padding-right: 25px;
+                                .price-t{
+                                    font-size: 12px;
+                                   font-family: 'Montserrat', sans-serif;
+                                    margin-bottom: 0;
+                                    margin-right: 14px;
+                                }
+                                select{
+                                    display: block;
+                                    width: 50px;
+                                    border-radius: 3px;
+                                    color: #fff;
+                                    font-family: RalewayBold;
+                                    text-transform: uppercase;
+                                    height: 22px;
+                                    /*for WebKit*/
+                                     -webkit-appearance: none;
+                                     /* for FF */
+                                      -moz-appearance: none;
+                                      text-indent: 0.01px; 
+                                      text-overflow: '';
+                                      /* for IE */
+                                      -ms-appearance: none;
+                                      appearance: none!important;
+                                    background-image: url(../img/select-arr.png);
+                                    background-position: right 5px center;
+                                    background-repeat: no-repeat;
+                                    background-color: #179936;
+                                    padding-left: 8px;
+                                    outline: none;
+                                    font-size: 11px;
+                                }
+                                select::-ms-expand {
+                                  display: none;
+                                }
+                            }
+                        }
+                        .r-s{
+                            width: 50%;
+                            display: flex;
+                            align-items: center;
+                            .looks{
+                                width: 100%;
+                                span{
+                                    display: block;
+                                    text-align: center;
+                                    font-size: 20px;
+                                    color: #d0d0d0;
+                                    margin-bottom: 5px;
+                                    font-family: 'Montserrat', sans-serif;
+                                    font-weight: 700;
+                                }
+                                p{
+                                    text-align: center;
+                                    font-size: 10px;
+                                    color: #848383;
+                                    font-family: 'Raleway', sans-serif;
+                                    
+                                }
+                            }
+                            .messages-wr{
+                                width: 100%;
+                                .messages{
+                                    width: 67px;
+                                    border: 1px solid #dcdcdc;
+                                    border-radius: 3px;
+                                    padding: 6px 0 6px 29px;
+                                    background-repeat: no-repeat;
+                                    background-image: url(../img/mess-l-k.png);
+                                    background-position: center left 9px;
+                                    margin: 0 auto;
+                                    p{
+                                        font-size: 14px;
+                                        color: #d0d0d0;
+                                        font-family: 'Montserrat', sans-serif;
+                                        text-align: center;
+                                    }
+                                }
+                            }
+                            .buttons-my-adv{
+                                flex-shrink: 0;
+                                width: 133px;
+                                .to-up{
+                                    display: block;
+                                    width: 100%;
+                                    border: none;
+                                    outline: none;
+                                    color: #fff;
+                                    font-size: 12px;
+                                    border-radius: 3px;
+                                    background: #179936;
+                                    padding: 5px 0;
+                                    margin-bottom: 6px;
+                                }
+                                .activate{
+                                    display: block;
+                                    width: 100%;
+                                    border: none;
+                                    outline: none;
+                                    color: #fff;
+                                    font-size: 12px;
+                                    border-radius: 3px;
+                                    background: #d0d0d0;
+                                    padding: 5px 0;
+                   
+                                    span{
+                                        padding-left: 13px;
+                                        font-weight: 700;
+                                    }
+                                    &.active{
+                                        background: #2c3640;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    
+                }
+                
+            }
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             
         }
         .right-side{
