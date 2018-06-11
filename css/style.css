@@ -1846,4 +1846,129 @@ body {
         .l-k-main-wrapp .l-k-max-w .right-side .other-links-l-k .other-link-l-k.active {
           background: #2c3640; }
 
+.for-autocomplete {
+  width: 100%;
+  position: relative; }
+  .for-autocomplete .arr-autocomplete {
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    width: 17px;
+    height: 24px;
+    background-image: url(../img/arr-autocomplete.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer; }
+  .for-autocomplete .autocomplete-wrapp {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 800;
+    background: #fff;
+    height: 320px;
+    padding: 17px;
+    -webkit-box-shadow: 0px 23px 29px 0px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 0px 23px 29px 0px rgba(0, 0, 0, 0.26);
+    box-shadow: 0px 23px 29px 0px rgba(0, 0, 0, 0.26); }
+    .for-autocomplete .autocomplete-wrapp .rel-wr-aut {
+      position: relative; }
+    .for-autocomplete .autocomplete-wrapp ul {
+      width: 33.33%;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      max-height: 300px;
+      padding: 17px 27px;
+      overflow: auto; }
+      .for-autocomplete .autocomplete-wrapp ul::-webkit-scrollbar {
+        background: #e8e8e8;
+        width: 4px; }
+      .for-autocomplete .autocomplete-wrapp ul::-webkit-scrollbar-thumb {
+        background: #179935;
+        border-radius: 2.5px;
+        cursor: pointer; }
+      .for-autocomplete .autocomplete-wrapp ul a, .for-autocomplete .autocomplete-wrapp ul span {
+        display: block;
+        width: 100%;
+        margin-bottom: 13px;
+        position: relative;
+        padding-left: 17px;
+        font-size: 12px;
+        font-family: 'Raleway', sans-serif; }
+        .for-autocomplete .autocomplete-wrapp ul a:before, .for-autocomplete .autocomplete-wrapp ul span:before {
+          content: "";
+          display: block;
+          position: absolute;
+          top: 7px;
+          left: 0;
+          width: 4px;
+          height: 4px;
+          background: #179935;
+          border-radius: 50%; }
+      .for-autocomplete .autocomplete-wrapp ul.lvl-2 {
+        position: absolute;
+        top: 0;
+        left: 33.33%; }
+      .for-autocomplete .autocomplete-wrapp ul.lvl-3 {
+        position: absolute;
+        top: 0;
+        left: 66.66%;
+        width: 33.33%; }
+
+.modal {
+  background: rgba(0, 0, 0, 0.5); }
+
+.modal-messege .modal-dialog {
+  background: #fff;
+  margin: 50px auto;
+  max-width: 460px; }
+  .modal-messege .modal-dialog .modal-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 50px 15px; }
+    .modal-messege .modal-dialog .modal-body .close-modal {
+      position: absolute;
+      display: block;
+      top: 10px;
+      right: 10px;
+      background: transparent;
+      border: none;
+      outline: none;
+      font-size: 10px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700; }
+      .modal-messege .modal-dialog .modal-body .close-modal span {
+        padding-left: 15px; }
+    .modal-messege .modal-dialog .modal-body .message-t {
+      font-size: 14px;
+      font-family: 'Raleway', sans-serif;
+      text-align: center; }
+.modal-messege#message-2 .modal-dialog .modal-body {
+  padding: 20px 30px 30px 30px; }
+  .modal-messege#message-2 .modal-dialog .modal-body .buttons-modal {
+    width: 100%;
+    display: flex; }
+    .modal-messege#message-2 .modal-dialog .modal-body .buttons-modal button {
+      display: block;
+      width: 100%;
+      border-radius: 3px;
+      outline: none;
+      border: none;
+      color: #fff;
+      padding: 6px 0;
+      font-size: 14px; }
+      .modal-messege#message-2 .modal-dialog .modal-body .buttons-modal button:first-child {
+        margin-right: 7.5px; }
+      .modal-messege#message-2 .modal-dialog .modal-body .buttons-modal button:last-child {
+        margin-left: 7.5px; }
+      .modal-messege#message-2 .modal-dialog .modal-body .buttons-modal button.yes {
+        background: #ff0000; }
+      .modal-messege#message-2 .modal-dialog .modal-body .buttons-modal button.no {
+        background: #179936; }
+
 /*# sourceMappingURL=style.css.map */

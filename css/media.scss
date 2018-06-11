@@ -618,10 +618,7 @@
     .main-baner{
         margin-bottom: 30px;
     }
-    .search-wrapper .main-m-w form input{
-            background-position: center left 10px;
-        padding: 7px 0 7px 30px;
-    }
+   
     .search-wrapper .main-m-w form button {
         width: 85px;
     }
@@ -911,8 +908,12 @@
         margin-bottom: 10px;
     }
     
-    
-    
+    .for-autocomplete .autocomplete-wrapp ul.lvl-2,.for-autocomplete .autocomplete-wrapp ul.lvl-3{
+        display: none;
+    }
+    .for-autocomplete .autocomplete-wrapp ul{
+        width: 100%;
+    }
     
     
     

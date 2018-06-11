@@ -102,7 +102,57 @@
                     <div class="col-md-12">
                         <div class="main-m-w">
                             <form>
-                                <input type="text" placeholder="Что вы ищете?">
+                                <div class="for-autocomplete">
+                                    <span class="arr-autocomplete"></span>
+                                    <input type="text" placeholder="Что вы ищете?">
+                                    <div class="autocomplete-wrapp">
+                                        <div class="rel-wr-aut">
+                                            <ul class="lvl-1">
+                                                <li>
+                                                    <span>Тракторы</span>
+                                                </li>
+                                            </ul>
+                                            <ul class="lvl-2">
+                                                <li>
+                                                    <span>Тракторы</span>
+                                                </li> 
+                                                
+                                            </ul>
+                                            <ul class="lvl-3">
+                                                <li>
+                                                    <span>Тракторы</span>
+                                                </li>
+                                                <li>
+                                                    <span>Тракторы</span>
+                                                </li>
+                                                <li>
+                                                    <span>Тракторы</span>
+                                                </li>
+                                                <li>
+                                                    <span>Тракторы</span>
+                                                </li>
+                                                <li>
+                                                    <span>Тракторы</span>
+                                                </li>
+                                                 <li>
+                                                    <span>Тракторы</span>
+                                                </li>
+                                                <li>
+                                                    <span>Тракторы</span>
+                                                </li>
+                                                <li>
+                                                    <span>Тракторы</span>
+                                                </li>
+                                                <li>
+                                                    <span>Тракторы</span>
+                                                </li>
+                                                <li>
+                                                    <span>Тракторы</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
                                 <button type="submit">Найти</button>
                             </form>
                         </div>
@@ -449,11 +499,37 @@
         </footer>
     </section>
     
+    <!--модалки-->
+    <div class="modal fade modal-messege" id="message">
+        <div class="modal-dialog">
+            <div class="modal-body">
+                <button class="close-modal" data-dismiss="modal">Закрыть <span>X</span></button>
+                <p class="message-t">Сообщение отправлено</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade modal-messege" id="message-2">
+        <div class="modal-dialog">
+            <div class="modal-body">
+                
+                <p class="message-t">Вы действительно хотите удалить обьявления?</p>
+                
+                <div class="buttons-modal">
+                    <button class="yes">Да</button>
+                    <button class="no">Нет</button>
+                </div>
+            </div>
+        </div>
+    </div>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script>
+        $('#message').modal('show');
+    </script>
 </body>
 
 </html>
