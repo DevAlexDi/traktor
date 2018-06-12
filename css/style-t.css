@@ -306,4 +306,15 @@ footer {
         .filters_wrap .filters_flex .filters .filter_select .select_list li:hover {
           background: #f9f9f9; }
 
+.category_filter_main_banner {
+  margin-bottom: 10px !important; }
+
+.category_filter_search_wrap .search-wrapper {
+  margin-bottom: 30px; }
+  .category_filter_search_wrap .search-wrapper h2 {
+    color: #000;
+    font: 36px RalewayBold;
+    margin: 0 0 40px;
+    text-align: center; }
+
 /*# sourceMappingURL=style-t.css.map */
