@@ -76,6 +76,20 @@ $(document).ready(function () {
         , showMaskOnHover: false
         , showMaskOnFocus: true
     });
-    
+
+    $('.sort').click(function(e) {
+        e.stopPropagation();
+        $(this).next().slideToggle();
+    });
+
+    $('.select_but').click(function(e) {
+        e.stopPropagation();
+        $(this).next().slideToggle();
+    });
+
+    $('body').click(function() {
+        $('.sort_list').slideUp();
+        $('.select_list').slideUp();
+    });
     
 });

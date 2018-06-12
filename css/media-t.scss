@@ -1,6 +1,25 @@
+@media (max-width: 1550px) {
+  .search_results_wrap .head-products {
+    flex-wrap: wrap;
+  }
+  .search_results_wrap .head-products .mid_side {
+    order: 2;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .filters_wrap .filters_flex {
+    padding: 30px 0 10px;
+  }
+}
+
 @media (max-width: 1400px) {
   .footer_wrap .footer_left {
     width: 22%;
+  }
+
+  .search_results_wrap .search_results_flex .all-product .one-product-wr {
+    width: 33.33%;
   }
 }
 @media (max-width: 1199px) {
@@ -10,13 +29,46 @@
   .footer_wrap .footer_left {
     margin-right: 45px;
   }
+
+  .search_results_wrap .head-products {
+    flex-direction: row;
+  }
+  .search_results_wrap .head-products .right-side {
+    order: 0;
+    width: 100%;
+  }
+  .search_results_wrap .head-products .left-side {
+    order: 1;
+  }
+  .search_results_wrap .head-products .mid_side {
+    width: auto;
+    margin-left: 20px;
+  }
+  .search_results_wrap .head-products .right-side .google-ad {
+    margin: auto;
+  }
+  .search_results_wrap .search_results_flex .all-product {
+    padding-left: 0;
+  }
+  .search_results_wrap .search_results_flex .all-product .one-product-wr {
+    padding-left: 20px;
+  }
+
+  .filters_wrap .filters_flex {
+    flex-wrap: wrap;
+  }
+  .filters_wrap .filters_flex .filters {
+    width: 49%!important;
+  }
+
 }
 @media (max-width: 991px) {
   .index_text {
     margin-top: 0;
     margin-bottom: 30px;
   }
-  .index_text .index_text_wrap .google_banner {
+  .index_text .index_text_wrap .google_banner,
+  .search_results_wrap .search_results_flex .google_banner {
     display: none;
   }
   .index_text .index_text_wrap .text {
@@ -36,6 +88,10 @@
   }
   .footer_wrap .footer_menu1 {
     padding-bottom: 40px;
+  }
+
+  .search_results_wrap .search_results_flex .all-product {
+    margin-left: -20px;
   }
 }
 
@@ -58,5 +114,40 @@
   }
   .footer_wrap .footer_menu {
     padding-bottom: 20px;
+  }
+
+  .search_results_wrap .head-products .mid_side {
+    margin-left: 0;
+  }
+  .search_results_wrap .search_results_flex .all-product {
+    margin-left: 0;
+  }
+  .search_results_wrap .search_results_flex .all-product .one-product-wr {
+    width: 50%;
+    padding: 0 5px;
+  }
+
+  .filters_wrap .filters_flex {
+    padding-top: 15px;
+  }
+
+  .filters_wrap .filters_flex .filters {
+    width: 100%!important;
+  }
+
+  .filters_wrap .filters_flex .filters1 {
+    order: 0;
+  }
+  .filters_wrap .filters_flex .filters2 {
+    order: 1;
+  }
+  .filters_wrap .filters_flex .filters3 {
+    order: 2;
+  }
+  .filters_wrap .filters_flex .filters4 {
+    order: 4;
+  }
+  .filters_wrap .filters_flex .filters5 {
+    order: 3;
   }
 }

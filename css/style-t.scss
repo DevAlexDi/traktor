@@ -204,3 +204,255 @@ footer {
     }
   }
 }
+
+.bottom_text {
+  padding: 20px 0 25px;
+
+  p, ul, ol {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 15px!important;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: black;
+    font-size: 20px;
+  }
+}
+
+.search_results_wrap {
+  .head-products {
+    .left-side {
+      width: 300px;
+    }
+
+    .mid_side {
+      margin-left: 50px;
+      margin-right: auto;
+      margin-top: 25px;
+      display: flex;
+
+      .sort_label {
+        color: #898888;
+        font-size: 16px;
+      }
+
+      .sort_wrap {
+        position: relative;
+        padding-left: 20px;
+        padding-right: 30px;
+        cursor: pointer;
+
+        &:after {
+          position: absolute;
+          top: 7px;
+          right: 0;
+          content: '';
+          display: block;
+          width: 13px;
+          height: 9px;
+          background: url(../img/arr-autocomplete.png) no-repeat;
+        }
+
+        .sort {
+          color: #000;
+          font-size: 16px;
+        }
+
+        .sort_list {
+          position: absolute;
+          width: 170px;
+          border: 1px solid #898888;
+          margin: 0;
+          list-style: none;
+          z-index: 10;
+          background: #fff;
+          padding: 0;
+          left: 0;
+          top: 35px;
+          border-radius: 3px;
+          box-shadow: 0 6px 12px rgba(0,0,0,.175);
+          display: none;
+
+          li {
+            padding: 5px 15px;
+            border-radius: 3px;
+
+            &:hover {
+              background: #f9f9f9;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .search_results_flex {
+    display: flex;
+
+    .google_banner {
+      width: 300px;
+      height: 600px;
+      flex-shrink: 0;
+    }
+
+    .all-product {
+      padding-left: 13px;
+
+      .one-product-wr {
+        width: 25%;
+        padding: 0 0 0 37px;
+      }
+    }
+  }
+
+  .search_pagination {
+    margin: 0 0 15px;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+    li {
+      span, a {
+        font: 14px Montserrat;
+        color: #000;
+        transition: 0.3s;
+        padding: 0 9px;
+      }
+
+      a {
+        &:hover {
+          color: #179936;
+        }
+      }
+
+      &.active {
+        span, a {
+          color: #179936;
+        }
+      }
+    }
+  }
+}
+
+.filters_wrap {
+  h6 {
+    font-size: 20px;
+    font-weight: normal;
+    font-family: RalewayBold;
+    margin: 0;
+  }
+
+  .filters_flex {
+    padding: 30px 7% 10px;
+    display: flex;
+    justify-content: space-between;
+
+    .filters {
+      &.filters2 {
+        width: 20.7%;
+      }
+
+      .filter_label {
+        display: block;
+        color: #8c8989;
+        font: 14px Raleway;
+        text-transform: uppercase;
+      }
+
+      .double_filters {
+        display: flex;
+        justify-content: space-between;
+
+        .filter_select {
+          width: 48%;
+
+          .select_list {
+            top: 57px;
+          }
+        }
+      }
+
+      .filter_select {
+        position: relative;
+
+        span {
+          cursor: pointer;
+        }
+
+        .select_but {
+          display: block;
+          background: #e8e8e8;
+          font: 16px Raleway;
+          color: #000;
+          border-radius: 3px;
+          padding: 8px 50px 8px 30px;
+          position: relative;
+          margin: 20px 0;
+          border: none;
+          outline: none;
+          width: 100%;
+
+          &:after {
+            position: absolute;
+            top: 14px;
+            right: 10px;
+            content: '';
+            display: block;
+            width: 13px;
+            height: 9px;
+            background: url(../img/arr-autocomplete.png) no-repeat;
+          }
+        }
+
+        .clear_filters {
+          display: block;
+          background: #179936;
+          font: 14px AvenirNextCyr;
+          color: #fff;
+          border-radius: 3px;
+          padding: 8.5px 0;
+          position: relative;
+          margin: 20px 0;
+          border: none;
+          outline: none;
+          width: 100%;
+          text-align: center;
+          transition: 0.3s;
+
+          &:hover {
+            background: rgba(23, 153, 54, 0.7);
+          }
+        }
+
+        .select_list {
+          position: absolute;
+          width: 100%;
+          border: 1px solid #898888;
+          margin: 0;
+          list-style: none;
+          z-index: 10;
+          background: #fff;
+          padding: 0;
+          left: 0;
+          top: 37px;
+          border-radius: 3px;
+          box-shadow: 0 6px 12px rgba(0,0,0,.175);
+          display: none;
+
+          li {
+            padding: 5px 15px;
+            border-radius: 3px;
+            cursor: pointer;
+
+            &:hover {
+              background: #f9f9f9;
+            }
+          }
+        }
+      }
+    }
+  }
+}

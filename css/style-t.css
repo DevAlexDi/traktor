@@ -137,4 +137,173 @@ footer {
     .footer_wrap .footer_menu.footer_menu1 ul {
       column-count: 2; }
 
+.bottom_text {
+  padding: 20px 0 25px; }
+  .bottom_text p, .bottom_text ul, .bottom_text ol {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 15px !important; }
+  .bottom_text h1, .bottom_text h2, .bottom_text h3, .bottom_text h4, .bottom_text h5, .bottom_text h6 {
+    color: black;
+    font-size: 20px; }
+
+.search_results_wrap .head-products .left-side {
+  width: 300px; }
+.search_results_wrap .head-products .mid_side {
+  margin-left: 50px;
+  margin-right: auto;
+  margin-top: 25px;
+  display: flex; }
+  .search_results_wrap .head-products .mid_side .sort_label {
+    color: #898888;
+    font-size: 16px; }
+  .search_results_wrap .head-products .mid_side .sort_wrap {
+    position: relative;
+    padding-left: 20px;
+    padding-right: 30px;
+    cursor: pointer; }
+    .search_results_wrap .head-products .mid_side .sort_wrap:after {
+      position: absolute;
+      top: 7px;
+      right: 0;
+      content: '';
+      display: block;
+      width: 13px;
+      height: 9px;
+      background: url(../img/arr-autocomplete.png) no-repeat; }
+    .search_results_wrap .head-products .mid_side .sort_wrap .sort {
+      color: #000;
+      font-size: 16px; }
+    .search_results_wrap .head-products .mid_side .sort_wrap .sort_list {
+      position: absolute;
+      width: 170px;
+      border: 1px solid #898888;
+      margin: 0;
+      list-style: none;
+      z-index: 10;
+      background: #fff;
+      padding: 0;
+      left: 0;
+      top: 35px;
+      border-radius: 3px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+      display: none; }
+      .search_results_wrap .head-products .mid_side .sort_wrap .sort_list li {
+        padding: 5px 15px;
+        border-radius: 3px; }
+        .search_results_wrap .head-products .mid_side .sort_wrap .sort_list li:hover {
+          background: #f9f9f9; }
+.search_results_wrap .search_results_flex {
+  display: flex; }
+  .search_results_wrap .search_results_flex .google_banner {
+    width: 300px;
+    height: 600px;
+    flex-shrink: 0; }
+  .search_results_wrap .search_results_flex .all-product {
+    padding-left: 13px; }
+    .search_results_wrap .search_results_flex .all-product .one-product-wr {
+      width: 25%;
+      padding: 0 0 0 37px; }
+.search_results_wrap .search_pagination {
+  margin: 0 0 15px;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: center; }
+  .search_results_wrap .search_pagination li span, .search_results_wrap .search_pagination li a {
+    font: 14px Montserrat;
+    color: #000;
+    transition: 0.3s;
+    padding: 0 9px; }
+  .search_results_wrap .search_pagination li a:hover {
+    color: #179936; }
+  .search_results_wrap .search_pagination li.active span, .search_results_wrap .search_pagination li.active a {
+    color: #179936; }
+
+.filters_wrap h6 {
+  font-size: 20px;
+  font-weight: normal;
+  font-family: RalewayBold;
+  margin: 0; }
+.filters_wrap .filters_flex {
+  padding: 30px 7% 10px;
+  display: flex;
+  justify-content: space-between; }
+  .filters_wrap .filters_flex .filters.filters2 {
+    width: 20.7%; }
+  .filters_wrap .filters_flex .filters .filter_label {
+    display: block;
+    color: #8c8989;
+    font: 14px Raleway;
+    text-transform: uppercase; }
+  .filters_wrap .filters_flex .filters .double_filters {
+    display: flex;
+    justify-content: space-between; }
+    .filters_wrap .filters_flex .filters .double_filters .filter_select {
+      width: 48%; }
+      .filters_wrap .filters_flex .filters .double_filters .filter_select .select_list {
+        top: 57px; }
+  .filters_wrap .filters_flex .filters .filter_select {
+    position: relative; }
+    .filters_wrap .filters_flex .filters .filter_select span {
+      cursor: pointer; }
+    .filters_wrap .filters_flex .filters .filter_select .select_but {
+      display: block;
+      background: #e8e8e8;
+      font: 16px Raleway;
+      color: #000;
+      border-radius: 3px;
+      padding: 8px 50px 8px 30px;
+      position: relative;
+      margin: 20px 0;
+      border: none;
+      outline: none;
+      width: 100%; }
+      .filters_wrap .filters_flex .filters .filter_select .select_but:after {
+        position: absolute;
+        top: 14px;
+        right: 10px;
+        content: '';
+        display: block;
+        width: 13px;
+        height: 9px;
+        background: url(../img/arr-autocomplete.png) no-repeat; }
+    .filters_wrap .filters_flex .filters .filter_select .clear_filters {
+      display: block;
+      background: #179936;
+      font: 14px AvenirNextCyr;
+      color: #fff;
+      border-radius: 3px;
+      padding: 8.5px 0;
+      position: relative;
+      margin: 20px 0;
+      border: none;
+      outline: none;
+      width: 100%;
+      text-align: center;
+      transition: 0.3s; }
+      .filters_wrap .filters_flex .filters .filter_select .clear_filters:hover {
+        background: rgba(23, 153, 54, 0.7); }
+    .filters_wrap .filters_flex .filters .filter_select .select_list {
+      position: absolute;
+      width: 100%;
+      border: 1px solid #898888;
+      margin: 0;
+      list-style: none;
+      z-index: 10;
+      background: #fff;
+      padding: 0;
+      left: 0;
+      top: 37px;
+      border-radius: 3px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+      display: none; }
+      .filters_wrap .filters_flex .filters .filter_select .select_list li {
+        padding: 5px 15px;
+        border-radius: 3px;
+        cursor: pointer; }
+        .filters_wrap .filters_flex .filters .filter_select .select_list li:hover {
+          background: #f9f9f9; }
+
 /*# sourceMappingURL=style-t.css.map */
